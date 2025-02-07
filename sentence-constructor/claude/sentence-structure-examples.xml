@@ -1,0 +1,30 @@
+<sentence-structure-examples>
+    <example>
+        <sentence>I see the raven.</sentence>
+        <structure>[Subject] [Verb] [Article] [Noun].</structure>
+    </example>
+    <example>
+        <sentence>She speaks French.</sentence> 
+        <structure>[Subject] [Verb] [Noun].</structure>
+    </example>
+    <example>
+        <sentence>The car isn't red.</sentence> 
+        <structure>[Subject] [Negation] [Verb] [Adjective].</structure>
+    </example>
+    <example>
+        <sentence>Did you see the raven?</sentence> 
+        <structure>[Subject] [Verb] [Article] [Noun]?</structure>
+    </example>
+    <example>
+        <sentence>What is the color of the car?</sentence> 
+        <structure>[Interrogative-Word] [Subject] [Verb] [Article] [Noun]?</structure>
+    </example>
+    <example>
+        <sentence>He eats the apple.</sentence> 
+        <structure>[Pronoun] [Verb] [Article] [Noun].</structure>
+    </example>
+    <example>
+        <sentence>I see the raven in the morning.</sentence> 
+        <structure>[Subject] [Verb] [Article] [Noun] [Time-Expression].</structure>
+    </example>
+</sentence-structure-examples>
