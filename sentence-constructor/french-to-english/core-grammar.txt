@@ -1,0 +1,121 @@
+<core-grammar>
+
+10 Essential French Grammar Rules
+
+1. Gender of Nouns & Article Agreement
+
+Most fundamental concept affecting multiple aspects of French
+
+Every noun is either masculine (le) or feminine (la)
+Articles must match: le garçon (the boy) vs. la fille (the girl)
+Indefinite articles: un garçon (a boy) vs. une fille (a girl)
+Plural for both: les/des
+Common pattern hints:
+Most nouns ending in -e are feminine
+Most nouns ending in consonants are masculine
+
+2. Subject Pronouns & Basic Verb Agreement
+
+Essential for forming any complete sentence
+
+je (I), tu (you informal)
+il/elle (he/she)
+nous (we)
+vous (you formal/plural)
+ils/elles (they)
+Key rule: Always use subject pronouns with verbs
+Example: Je parle français (I speak French)
+
+3. Present Tense Regular Verb Conjugation
+
+Foundation for expressing basic actions
+
+-er verbs (most common):
+je parle, tu parles, il/elle parle
+nous parlons, vous parlez, ils/elles parlent
+
+-ir verbs:
+je finis, tu finis, il/elle finit
+nous finissons, vous finissez, ils/elles finissent
+
+4. Essential Irregular Verbs
+
+Critical high-frequency verbs needed for basic communication
+
+être (to be):
+je suis, tu es, il/elle est
+nous sommes, vous êtes, ils/elles sont
+
+avoir (to have):
+j'ai, tu as, il/elle a
+nous avons, vous avez, ils/elles ont
+
+5. Basic Negation
+
+How to say 'no' or 'not'
+Structure: ne + verb + pas
+
+Examples:
+Je ne parle pas anglais (I don't speak English)
+Ce n'est pas difficile (It's not difficult)
+
+6. Question Formation
+
+Three main ways to ask questions
+
+Intonation: Tu parles français?
+Est-ce que: Est-ce que tu parles français?
+Inversion: Parles-tu français?
+
+7. Adjective Agreement
+
+How adjectives change to match nouns
+Basic rules:
+
+Add -e for feminine
+Add -s for plural
+
+Example:
+petit garçon → petite fille
+petits garçons → petites filles
+
+8. Possessive Adjectives
+
+Showing ownership
+
+Masculine:
+mon, ton, son (my, your, his/her)
+
+Feminine:
+ma, ta, sa
+
+Plural:
+mes, tes, ses
+
+9. Basic Prepositions & Contractions
+
+Essential for showing relationships between words
+
+à + le = au
+de + le = du
+à + les = aux
+de + les = des
+
+Examples:
+Je vais au restaurant (I'm going to the restaurant)
+La porte du café (The door of the café)
+
+10. Tu vs. Vous (Formal/Informal)
+
+Critical for social appropriateness
+
+Tu:
+Informal situations
+Friends, family, children
+
+Vous:
+Formal situations
+Strangers, authority figures
+Multiple people (always)
+
+<core-grammar>

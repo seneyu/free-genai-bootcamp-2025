@@ -4,7 +4,7 @@
 
 Claude Sonnet 3.5 (2025 Q1)
 
-I do not have the paid version of Claude.
+I got the paid version of Claude just to try it out for this project.
 
 ### Prompting Guides
 
