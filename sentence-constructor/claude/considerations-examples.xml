@@ -1,0 +1,28 @@
+<examples>
+    <example>
+        <output>
+            Some hints to get you started:
+            - For expressing "it is" with weather/temperature, French uses a specific impersonal construction
+            - The word "therefore" requires a specific connecting phrase in French
+            - For expressing need, French uses a specific construction with "avoir" + "besoin"
+            - Remember that in French, we need agreement between adjectives and the nouns they describe
+            - The possessive adjective needs to agree with the noun it modifies
+        </output>
+        <score>6</score>
+        <score:reason>
+            This example output scores 6 because the returned information is too verbose.
+        </score:reason>
+    </example>
+    <example>
+        <output>
+            Clues, Considerations, Next Steps:
+            - Remember to use impersonal construction for weather/temperature
+            - Think about how to connect these two ideas
+            - Consider the possession structure
+        </output>
+        <score>10</score>
+        <score:reason>
+            This example output scores 10 because the returned information is concies.
+        </score:reason>
+    </example>
+</examples>
