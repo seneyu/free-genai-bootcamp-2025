@@ -34,11 +34,23 @@ The formatted output will generally contain three parts:
 ### Sentence Structure
 
 - Do not provide articles and prepositions in the sentence structure
+- Do not provide tenses or conjugations in the sentence structure
+- Remember to consider beginner level sentence structures
+
+Here is an example of simple sentence structures:
+
+- I see the raven. → [Subject] [Verb] [Article] [Noun].
+- She speaks French. → [Subject] [Verb] [Noun].
+- The car isn't red. → [Subject] [Negation] [Verb] [Adjective].
+- Did you see the raven? → [Subject] [Verb] [Article] [Noun]?
+- What is the color of the car? → [Interrogative-Word] [Subject] [Verb] [Article] [Noun]?
+- He eats the apple. → [Pronoun] [Verb] [Article] [Noun].
+- I see the raven in the morning. → [Subject] [Verb] [Article] [Noun] [Time-Expression].
 
 ### Clues and Considerations
 
 - Try and provide a non-nested bulleted list
-- Try to leave out the French words because the student can refer to the vocabulary table
+- Leave out the French words because the student can refer to the vocabulary table
 
 <example>
     <user:input>
