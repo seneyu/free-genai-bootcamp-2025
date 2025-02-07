@@ -4,7 +4,7 @@ French Language Teacher
 
 ## Language Level
 
-Beginner, A1-A2 (based on CEFR levels)
+CEFR level B1
 
 ## Teaching Instructions
 
