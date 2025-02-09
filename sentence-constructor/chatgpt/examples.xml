@@ -6,7 +6,7 @@
     <score_reasons>
     - BAD: The beginner sentence is unnecessary, it should just start showing the vocabulary table
     - BAD: It keeps giving me words that are either not used in the final answer or missing words that are used in the final answer 
-    - BAD: The sentence structure says too much, we want somoething that is conceptual
+    - BAD: The sentence structure says too much, we want something that is conceptual
     - BAD: In the clues we should not provide the form of verbs because the student needs to figure that out
     </score_reasons>
     <assistant:output>
