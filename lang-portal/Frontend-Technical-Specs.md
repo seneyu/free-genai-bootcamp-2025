@@ -33,7 +33,7 @@ This page contains the following components:
 
 - GET /api/dashboard/last_study_session
 - GET /api/dashboard/study_progress
-- GET /api/dashboard/quick-stats
+- GET /api/dashboard/quick_stats
 
 ### Study Activities Index `/study_acitivities`
 
