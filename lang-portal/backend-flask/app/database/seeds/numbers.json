@@ -1,0 +1,33 @@
+{
+  "group_name": "Numbers",
+  "words": [
+    {
+      "french": "un",
+      "english": "one",
+      "gender": "masculine",
+      "parts": {
+        "type": "number",
+        "category": "cardinal",
+        "feminine": "une"
+      }
+    },
+    {
+      "french": "deux",
+      "english": "two",
+      "gender": null,
+      "parts": {
+        "type": "number",
+        "category": "cardinal"
+      }
+    },
+    {
+      "french": "trois",
+      "english": "three",
+      "gender": null,
+      "parts": {
+        "type": "number",
+        "category": "cardinal"
+      }
+    }
+  ]
+}

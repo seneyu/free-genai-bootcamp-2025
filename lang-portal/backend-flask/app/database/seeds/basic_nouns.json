@@ -1,0 +1,25 @@
+{
+  "group_name": "Basic Nouns",
+  "words": [
+    {
+      "french": "chat",
+      "english": "cat",
+      "gender": "masculine",
+      "parts": {
+        "definite_article": "le",
+        "indefinite_article": "un",
+        "plural": "chats"
+      }
+    },
+    {
+      "french": "voiture",
+      "english": "car",
+      "gender": "feminine",
+      "parts": {
+        "definite_article": "la",
+        "indefinite_article": "une",
+        "plural": "voitures"
+      }
+    }
+  ]
+}

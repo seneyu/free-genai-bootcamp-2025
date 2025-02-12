@@ -12,8 +12,24 @@ We are building a learning portal that acts as launchpad for study activities:
 
 - The backend will be built using Python
 - The database will be SQLite3
+- Invoke is a task runner for Python
 - The API will be built using Flask
+- The API will always return JSON
 - There will be no authentication or authorization
+
+## Directory Structure
+
+```text
+backend-flask/
+├── app/
+│   ├── api/
+│   ├── models/
+│   └── db/
+│       ├── migrations/
+│       └── seeds/
+├── tests/
+└── wsgi.py
+```
 
 ## Database Schema
 
@@ -40,12 +56,15 @@ We have the following tables:
   - study_activity_id integer
   - start_time datetime
   - end_time datetime
-- study_activities - a specific study activity, linking a studyy session to group
+- study_activities - a specific study activity, linking a study session to group
   - id integer
-  - study_session_id integer
+  - name string
+  - thumbnail_url string
+  - description string
   - group_id integer
   - created_at datetime
 - word_review_items - a record of word practice, determining if the word was correct or not
+  - id integer
   - word_id integer
   - study_session_id integer
   - correct boolean
@@ -100,8 +119,6 @@ Returns quick overview statistics.
   "study_streak_days": 4
 }
 ```
-
-- GET /api/study_activities
 
 ### GET /api/study_activities/:id
 
@@ -430,7 +447,7 @@ Returns quick overview statistics.
 }
 ```
 
-## Invoke Tasks
+## Tasks Runner Tasks
 
 Invoke is a task runner for Python.
 Here is a list of possible tasks we need for our lang portal.

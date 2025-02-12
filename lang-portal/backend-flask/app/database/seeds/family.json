@@ -1,0 +1,38 @@
+{
+  "group_name": "Family Members",
+  "words": [
+    {
+      "french": "père",
+      "english": "father",
+      "gender": "masculine",
+      "parts": {
+        "type": "family",
+        "definite_article": "le",
+        "indefinite_article": "un",
+        "plural": "pères"
+      }
+    },
+    {
+      "french": "mère",
+      "english": "mother",
+      "gender": "feminine",
+      "parts": {
+        "type": "family",
+        "definite_article": "la",
+        "indefinite_article": "une",
+        "plural": "mères"
+      }
+    },
+    {
+      "french": "frère",
+      "english": "brother",
+      "gender": "masculine",
+      "parts": {
+        "type": "family",
+        "definite_article": "le",
+        "indefinite_article": "un",
+        "plural": "frères"
+      }
+    }
+  ]
+}

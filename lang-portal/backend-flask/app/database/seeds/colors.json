@@ -1,0 +1,36 @@
+{
+  "group_name": "Colors",
+  "words": [
+    {
+      "french": "rouge",
+      "english": "red",
+      "gender": "masculine",
+      "parts": {
+        "type": "color",
+        "category": "basic",
+        "plural": "rouges"
+      }
+    },
+    {
+      "french": "bleu",
+      "english": "blue",
+      "gender": "masculine",
+      "parts": {
+        "type": "color",
+        "category": "basic",
+        "plural": "bleus",
+        "feminine": "bleue"
+      }
+    },
+    {
+      "french": "jaune",
+      "english": "yellow",
+      "gender": "masculine",
+      "parts": {
+        "type": "color",
+        "category": "basic",
+        "plural": "jaunes"
+      }
+    }
+  ]
+}
