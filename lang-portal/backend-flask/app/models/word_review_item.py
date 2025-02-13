@@ -1,18 +1,21 @@
-from datetime import datetime
+from datetime import datetime, UTC
+from typing import Optional
+from sqlalchemy.orm import Mapped, mapped_column, relationship
+from sqlalchemy import ForeignKey
 from app.extensions import db
 
 class WordReviewItem(db.Model):
     __tablename__ = 'word_review_items'
 
-    id = db.Column(db.Integer, primary_key=True)
-    word_id = db.Column(db.Integer, db.ForeignKey('words.id'), nullable=False)
-    study_session_id = db.Column(db.Integer, db.ForeignKey('study_sessions.id'), nullable=False)
-    correct = db.Column(db.Boolean, nullable=False)
-    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    word_id: Mapped[int] = mapped_column(ForeignKey('words.id'), nullable=False)
+    study_session_id: Mapped[int] = mapped_column(ForeignKey('study_sessions.id'), nullable=False)
+    correct: Mapped[bool] = mapped_column(nullable=False)
+    created_at: Mapped[datetime] = mapped_column(default=lambda: datetime.now(UTC))
 
     # relationships
-    word = db.relationship('Word', back_populates='review_items')
-    study_session = db.relationship('StudySession', back_populates='word_reviews')
+    word = relationship('Word', back_populates='review_items')
+    study_session = relationship('StudySession', back_populates='word_reviews')
 
     def __repr__(self):
         return f'<WordReviewItem word_id={self.word_id} correct={self.correct}>'

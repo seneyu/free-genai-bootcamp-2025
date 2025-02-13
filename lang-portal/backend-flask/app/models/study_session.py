@@ -1,19 +1,22 @@
-from datetime import datetime
+from datetime import datetime, UTC
+from typing import Optional
+from sqlalchemy.orm import Mapped, mapped_column, relationship
+from sqlalchemy import ForeignKey
 from app.extensions import db
 
 class StudySession(db.Model):
     __tablename__ = 'study_sessions'
 
-    id = db.Column(db.Integer, primary_key=True)
-    group_id = db.Column(db.Integer, db.ForeignKey('groups.id'))
-    study_activity_id = db.Column(db.Integer, db.ForeignKey('study_activities.id'))
-    start_time = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    end_time = db.Column(db.DateTime)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    group_id: Mapped[int] = mapped_column(ForeignKey('groups.id'))
+    study_activity_id: Mapped[int] = mapped_column(ForeignKey('study_activities.id'))
+    start_time: Mapped[datetime] = mapped_column(default=lambda: datetime.now(UTC))
+    end_time: Mapped[Optional[datetime]] = mapped_column(nullable=True)
 
-     # relationships
-    group = db.relationship('Group', back_populates='study_sessions')
-    study_activity = db.relationship('StudyActivity', back_populates='study_sessions')
-    word_reviews = db.relationship('WordReviewItem', back_populates='study_session')
+    # relationships
+    group = relationship('Group', back_populates='study_sessions')
+    study_activity = relationship('StudyActivity', back_populates='study_sessions')
+    word_reviews = relationship('WordReviewItem', back_populates='study_session')
 
     def __repr__(self):
         return f'<StudySession {self.id}>'

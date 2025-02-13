@@ -39,6 +39,10 @@ def create_app(config_name='default'):
         response.headers['Content-Type'] = 'application/json'
         return response
 
+    # register blueprint
+    from app.api import bp as api_bp
+    app.register_blueprint(api_bp, url_prefix='/api')
+
     @app.route('/')
     def hello():
         return jsonify({'message': 'Hello, Lang Portal!'})
