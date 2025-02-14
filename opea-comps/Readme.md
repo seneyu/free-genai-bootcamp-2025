@@ -18,7 +18,7 @@ ifconfig
 ```
 
 NO_PROXY=localhost
-LLM_ENDPOINT_PORT=8008 LLM_MODEL_ID="llama3.2:1b"
+LLM_ENDPOINT_PORT=9000 LLM_MODEL_ID="llama3.2:1b"
 host_ip=<your_host_ip> docker compose up
 
 ### Ollama API
@@ -30,7 +30,7 @@ https://github.com/ollama/ollama/blob/main/docs/api.md
 ## Download (Pull) a Model
 
 ```bash
-curl http://localhost:8008/api/pull -d '{
+curl http://localhost:9000/api/pull -d '{
     "model": "llama3.2:1b"
 }'
 ```
@@ -40,12 +40,16 @@ curl http://localhost:8008/api/pull -d '{
 Add `"stream": false` to tell the API to wait until the entire response is ready and send it all at once, else it will stream the response and send back word by word (or token by token).
 
 ```bash
-curl -X POST http://localhost:8008/api/generate -d '{
+curl -X POST http://localhost:9000/api/generate -d '{
     "model": "llama3.2:1b",
     "prompt": "Why is the sky blue?",
     "stream": false
 }'
 ```
+
+Here is the response I got back from Ollama:
+
+![Ollama response](./ollama-example-response.png)
 
 ## Technical Uncertainty
 
@@ -64,3 +68,7 @@ A: It does not appear so. The Ollama CLI might be running multiple APIs so you n
 Q: Will the model be downloaded in the container? Does that mean the ML model will be deleted when the container stops running?
 
 A: The model will download into the container and vanish when the container stop running. We need to mount a local drive and there is probably more work to be done.
+
+Q: For the LLM service which can perform text-generation, it suggests it will only work with TGI/vLLM and all we have to do is have it running. Does TGI and vLLM have a standarized API or is there code to detect which one is running? Do we really have to use Xeon or Gaudi processor?
+
+A: vLLM, TGI (Text Generation Inference), and Ollama all offer APIs with OpenAI compatibility, so in theory they should be interchangable.
