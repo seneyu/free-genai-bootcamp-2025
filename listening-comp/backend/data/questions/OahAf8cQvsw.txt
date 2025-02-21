@@ -1,0 +1,286 @@
+<introduction>
+Section 1: Retard du vol AF 438 à Paris
+</introduction>
+
+<conversation>
+s'il vous plaît le vol AF 438 à destination de Paris va avoir environ
+40 minutes de retard la raison ce sont les fortes pluies au départ de
+Madrid pour tout renseignement complémentaire
+</conversation>
+
+<questions>
+1. Quel est le numéro de vol qui a du retard ? 
+2. Quelle est la raison du retard du vol AF 438 ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 2: Invitation à visiter le bureau d'information
+</introduction>
+
+<conversation>
+nous vous invitons à passer au bureau d'information de la compagnie
+</conversation>
+
+<questions>
+1. À quel endroit l'interlocuteur est-il invité à se rendre ?
+2. Quel est le but probable de la visite au bureau d'information de la compagnie ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 3: Introduction de Nicolas Dupont au magasin Bureau Déco
+</introduction>
+
+<conversation>
+bonjour je suis Nicolas duupont je suis vendeur au magasin bureau déco
+</conversation>
+
+<questions>
+1. Quel est le nom de la personne qui se présente dans le dialogue ?
+2. Quelle est la profession de Nicolas Dupont ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 4: Promotion Noël: réductions sur les meubles
+</introduction>
+
+<conversation>
+je vous appelle pour vous informer qu'à l'occasion des fêtes de Noël
+nous offrons des promotions exceptionnelles à tous nos clients 20 30
+et même 50 % de réduction sur la plupart de nos meubles
+</conversation>
+
+<questions>
+1. Quel pourcentage de réduction est offert sur certains meubles pour Noël ?
+2. À qui s'adressent ces promotions exceptionnelles selon le dialogue ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 5: Invitation au Salon de la Pâtisserie à Paris
+</introduction>
+
+<conversation>
+nous vous invitons à venir nous rendre visite au magasin du lundi au
+samedi de 9h à 20h ou à consulter notre site internet pour plus de
+renseignements hier c'est terminé le salon de la pâtisserie de Paris
+avant les gourmands se retrouvaient au salon cuisiné mais depuis qu'il
+a fermé c'est au salon de la pâtisserie que le grand public mais aussi
+les professionnels de la pâtisserie vont goûter de délicieux desserts
+chocolatés ou fruités plus de 800 chefs pâtissiers sont présents pour
+dédicacer leurs livres mais aussi discuter avec le public de leur
+métier chaque année
+</conversation>
+
+<questions>
+1. Quels jours et heures le magasin est-il ouvert au public?<?xml version="1.0" encoding="UTF-8"?><figcaption>?</figcaption>
+2. Pourquoi les gourmands et les professionnels se retrouvent-ils maintenant au salon de la pâtisserie?<?xml version="1.0" encoding="UTF-8"?><figcaption>?</figcaption>
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 6: Acheter du matériel professionnel à petit prix
+</introduction>
+
+<conversation>
+vous pouvez acheter du matériel professionnel à bas prix et nouveauté
+de cette année
+</conversation>
+
+<questions>
+1. Quel type de matériel peut-on acheter à bas prix selon ce dialogue ?
+2. Quelle caractéristique du matériel est mentionnée comme une nouveauté de cette année ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 7: Interactions diverses avec des services et des amis
+</introduction>
+
+<conversation>
+vous pouvez suivre une classe avec un chef le billet pour un adulte
+coûte 10 € à l'entrée du salon mais seulement 8 € si vous l'achetez
+avant sur le site internet du salon dialogue 1 peux-tu me donner le
+numéro de ton spécialiste je veux prendre rendez-vous pour mon dos le
+docteur lebrin oui bien sûr attends je le cherche dialogue 2 je ne
+trouve pas les livres que j'ai pris à la bibliothèque tu pourrais
+ranger ta chambre ça t'aiderait à les retrouver dialogue 3 je ne
+comprends rien à ce site d'achat en ligne est-ce que tu veux que je
+regarde avec toi oui
+</conversation>
+
+<questions>
+1. Quel est le prix d'un billet pour adulte pour suivre une classe avec un chef au salon si acheté à l'entrée du salon ?
+2. Pourquoi la personne demande-t-elle le numéro de spécialiste du docteur Lebrin ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 8: Oubli de viande et solution alternative
+</introduction>
+
+<conversation>
+merci c'est gentil dialogue 4 je suis vraiment désolé j'ai oublié
+d'acheter de la viande en R ce n'est pas grave on va manger autre
+chose
+</conversation>
+
+<questions>
+1. Pourquoi l'interlocuteur s'excuse-t-il dans le dialogue?<point d'interrogation>
+2. Que vont manger les personnes après avoir appris que la viande a été oubliée?<point d'interrogation>
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 9: Retard du vol AF 438 à cause des pluies à Madrid
+</introduction>
+
+<conversation>
+s'il vous plaît le vol AF 438 à destination de Paris va avoir environ
+40 minutes de retard la raison ce sont les fortes pluies au départ de
+Madrid pour tout renseignement complémentaire
+</conversation>
+
+<questions>
+1. Combien de temps de retard a le vol AF 438 à destination de Paris ?
+2. Quelle est la raison du retard du vol AF 438 au départ de Madrid ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 10: Invitation à se rendre au bureau d'information
+</introduction>
+
+<conversation>
+nous vous invitons à passer au bureau d'information de la compagnie
+</conversation>
+
+<questions>
+1. À quel endroit est-on invité à se rendre selon le dialogue ?
+2. Quel est le but de cette invitation selon le dialogue ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 11: Introduction de Nicolas Dupont, vendeur chez Bureau Déco
+</introduction>
+
+<conversation>
+bonjour je suis Nicolas Dupont je suis vendeur au magasin bureau déco
+</conversation>
+
+<questions>
+1. Quel est le nom complet de Nicolas Dupont et quelle est sa profession ?
+2. Dans quel type de magasin travaille Nicolas Dupont ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 12: Promotion Noël: Réductions sur Meubles
+</introduction>
+
+<conversation>
+je vous appelle pour vous informer qu'à l'occasion des fêtes de Noël
+nous offrons des promotions exceptionnelles à tous nos clients 20 30
+et même 50 % de réduction sur la plupart de nos meubles
+</conversation>
+
+<questions>
+1. Quelles sont les réductions offertes pour les fêtes de Noël ?
+2. À qui s'adressent ces promotions exceptionnelles ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 13: Invitation au Salon de la Pâtisserie à Paris
+</introduction>
+
+<conversation>
+nous vous invitons à venir nous rendre visite au magasin du lundi au
+samedi de 9h à 20h ou à consulter notre site internet pour plus de
+renseignement hier c'est terminé le salon de la pâtisserie de Paris
+avant les gourmands se retrouvaient au salon cuisiné mais depuis qu'il
+a fermé c'est au salon de la pâtisserie que le grand public mais aussi
+les professionnels de la pâtisserie vont goûter de délicieux desserts
+chocolaté ou fruité plus de 800 chefs pâtissiers sont présents pour
+dédicacer leur livrees mais aussi discuter avec le public de leur
+métier chaque année
+</conversation>
+
+<questions>
+1. Quels jours et à quelles heures le magasin est-il ouvert pour les visites physiques ?
+2. Quel événement précédent était fréquenté par les gourmands avant que le Salon de la Pâtisserie ne devienne le lieu de rencontre ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 14: Achat de matériel professionnel abordable et nouveau
+</introduction>
+
+<conversation>
+vous pouvez acheter du matériel professionnel à bas prix et nouveauté
+de cette année
+</conversation>
+
+<questions>
+1. Quel type de matériel peut-on acheter à bas prix selon le dialogue ?
+2. Qu'est-ce qui est mentionné comme étant nouveau cette année selon le dialogue ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 15: Diverses interactions quotidiennes en français
+</introduction>
+
+<conversation>
+vous pouvez suivre une classe avec un chef le billet pour un adulte
+coûte 10 € à l'entrée du salon mais seulement 8 € si vous l'achetez
+avant sur le site internet du salon dialogue 1 peux-tu me donner le
+numéro de ton spécialiste je veux prendre rendez-vous pour mon dos le
+docteur Lebrun oui bien sûr attends je le cherche dialogue 2 je ne
+trouve pas les livres que j'ai pris à la bibliè tu pourrais ranger ta
+chambre ça t'aiderait à les retrouver dialogue 3 je ne comprends rien
+à ce site d'achat en ligne est-ce que tu veux que je regarde avec toi
+oui
+</conversation>
+
+<questions>
+1. Combien coûte le billet pour un adulte pour suivre une classe avec un chef, et quelle est la réduction si on l'achète avant sur le site internet du salon ?
+2. Quel est le nom du docteur que le locuteur veut contacter pour prendre rendez-vous pour son dos ?
+</questions>
+
+--------------------------------------------------
+
+<introduction>
+Section 16: Oubli de la viande et alternative
+</introduction>
+
+<conversation>
+merci c'est gentil dialogue 4 je suis vraiment désolé j'ai oubl
+d'acheter de la viande en rentrant ce n'est pas grave on va manger
+autre chose
+</conversation>
+
+<questions>
+1. Qu'est-ce que la personne a oublié d'acheter en rentrant chez elle ?
+2. Quelle est la réaction de l'autre personne face à cet oubli ?
+</questions>
+
+--------------------------------------------------
+
