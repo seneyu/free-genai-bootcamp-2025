@@ -6,6 +6,8 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 import streamlit as st
 from backend.question_generator import QuestionGenerator
+from backend.question_store import QuestionStore
+from datetime import datetime
 
 # Page config
 st.set_page_config(
@@ -25,10 +27,47 @@ if 'selected_answers' not in st.session_state:
 def main():
     st.title("🇫🇷 French Learning Assistant")
     
-    # Initialize question generator
+    # Initialize generators and stores
     generator = QuestionGenerator()
+    question_store = QuestionStore()
     
-    # Container for practice type and topic with custom width
+    # Sidebar for saved questions
+    with st.sidebar:
+        st.header("Saved Questions")
+        saved_questions = question_store.load_all_questions()
+        
+        if saved_questions:
+            selected_question = st.selectbox(
+                "Select a saved question",
+                options=saved_questions,
+                format_func=lambda x: f"{x['topic']} - {datetime.fromisoformat(x['timestamp']).strftime('%Y-%m-%d %H:%M')} ({x['practice_type']})",
+                key="saved_question"
+            )
+            
+            if st.button("Load Selected Question"):
+                # Convert stored question to exercise format
+                exercise = type('Exercise', (), {
+                    'conversation': selected_question['conversation'],
+                    'questions': selected_question['questions'],
+                    'correct_answers': selected_question['correct_answers']
+                })()
+                
+                # Reset all session state variables
+                st.session_state.current_exercise = exercise
+                st.session_state.answers_submitted = False
+                st.session_state.selected_answers = [''] * len(exercise.questions)
+                
+                # Clear radio button selections by regenerating their keys
+                for i in range(len(exercise.questions)):
+                    if f"q_{i}" in st.session_state:
+                        del st.session_state[f"q_{i}"]
+                
+                st.rerun()
+        else:
+            st.info("No saved questions yet.")
+    
+    # Main content
+    # Container for practice type and topic
     with st.container():
         col1, col2 = st.columns([1, 1])
         with col1:
@@ -50,9 +89,20 @@ def main():
             try:
                 exercise = generator.generate_practice_question(practice_type, topic)
                 if exercise:
+                    # Save the generated question
+                    question_store.save_question(topic, practice_type, exercise)
+                    
+                    # Reset all session state variables
                     st.session_state.current_exercise = exercise
                     st.session_state.answers_submitted = False
                     st.session_state.selected_answers = [''] * len(exercise.questions)
+                    
+                    # Clear radio button selections
+                    for i in range(len(exercise.questions)):
+                        if f"q_{i}" in st.session_state:
+                            del st.session_state[f"q_{i}"]
+                    
+                    st.rerun()
                 else:
                     st.error("Failed to generate exercise. Please try again.")
             except Exception as e:

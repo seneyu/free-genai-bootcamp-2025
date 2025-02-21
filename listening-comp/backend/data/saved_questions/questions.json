@@ -1,0 +1,64 @@
+[
+  {
+    "id": "20250221_134607",
+    "timestamp": "2025-02-21T13:46:07.337767",
+    "topic": "Food & Restaurant",
+    "practice_type": "Dialogue Practice",
+    "conversation": "**\nMarie et Jean entrent dans un restaurant. \n\nMarie : Bonjour, nous voudrions une table pour deux.\n\nServeur : Bien s\u00fbr, suivez-moi, voici une table pr\u00e8s de la fen\u00eatre.\n\nJean : Nous aimerions voir le menu, s'il vous pla\u00eet.\n\nServeur : Bien s\u00fbr, voici le menu. Nous avons des salades, des pizzas et des steaks.\n\nMarie : J'aimerais une salade et une eau.\n\nJean : Moi, je prends une pizza et un vin rouge.\n\nServeur : Tr\u00e8s bien, je vous apporte \u00e7a tout de suite.\n\n**",
+    "questions": [
+      {
+        "question": "Que demande Marie au serveur?",
+        "options": [
+          "Une table pour quatre.",
+          "Une table pour deux.",
+          "Une pizza.",
+          "Un vin rouge."
+        ]
+      },
+      {
+        "question": "Que va commander Jean?",
+        "options": [
+          "Une salade et une eau.",
+          "Une pizza et un vin rouge.",
+          "Une pizza et une eau.",
+          "Une salade et un vin rouge.\n\n**"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "B",
+      "B"
+    ]
+  },
+  {
+    "id": "20250221_135019",
+    "timestamp": "2025-02-21T13:50:19.157768",
+    "topic": "Travel",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Jean discutent de leur prochain voyage en Espagne.\n\nMarie: \"Est-ce que tu es pr\u00eat pour notre voyage en Espagne, Jean?\"\n\nJean: \"Oui, Marie! Je suis tr\u00e8s excit\u00e9. Qu'est-ce qu'on va visiter en premier?\"\n\nMarie: \"On va visiter Madrid d'abord. Apr\u00e8s, on se rend \u00e0 Barcelone.\"\n\nJean: \"Je n'ai jamais \u00e9t\u00e9 en Espagne. Est-ce que tu penses que nous allons manger de la bonne nourriture?\"\n\nMarie: \"Absolument! Les tapas et le paella sont d\u00e9licieux.\"",
+    "questions": [
+      {
+        "question": "O\u00f9 Marie et Jean pr\u00e9voient-ils de voyager?",
+        "options": [
+          "Paris",
+          "Madrid",
+          "Espagne",
+          "Londres"
+        ]
+      },
+      {
+        "question": "Quel plat Marie recommande-t-elle \u00e0 Jean?",
+        "options": [
+          "Pizza",
+          "Sushi",
+          "Tapas",
+          "Hamburger"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "C",
+      "C"
+    ]
+  }
+]
