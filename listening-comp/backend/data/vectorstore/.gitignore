@@ -1,0 +1,4 @@
+./vectorstore/*
+./vectorstore/**/*
+*.bin
+*.sqlite3

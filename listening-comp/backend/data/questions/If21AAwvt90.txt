@@ -1,0 +1,273 @@
+Introduction:
+Confirmation d'un dîner
+
+Conversation:
+allô c'est Solange je t'appelle pour confirmer le dîner samedi soir à
+la maison
+
+Questions:
+1. Qui appelle pour confirmer le dîner samedi soir ?
+2. À quelle adresse le dîner est-il prévu ?
+
+--------------------------------------------------
+
+Introduction:
+Préparation d'un repas convivial
+
+Conversation:
+vous pouvez apporter deux baguettes nous avons aussi invité Didier et
+Michel ils apportent le dessert une tarte aux pommes bon alors à
+samedi
+
+Questions:
+1. Qu'est-ce que la personne doit apporter pour le repas samedi ?
+2. Qui apporte le dessert pour le repas samedi et de quoi s'agit-il ?
+
+--------------------------------------------------
+
+Introduction:
+Annonce de départ de vol
+
+Conversation:
+s'il vous plaît le vol AF 335 au départ de Paris et à destination de
+Nice va partir à 15h40 nous invitons tous les passagers à se présenter
+porte 28
+
+Questions:
+1. À quelle heure le vol AF 335 va-t-il partir??
+2. À quelle porte les passagers sont-ils invités à se présenter??
+
+--------------------------------------------------
+
+Introduction:
+Bienvenue chez France Air
+
+Conversation:
+nous vous remercions de voyager sur la compagnie France Air et
+
+Questions:
+1. Quelle compagnie aérienne est mentionnée dans le dialogue ?
+2. Quel type de remerciement est exprimé par la compagnie aérienne aux voyageurs ?
+
+--------------------------------------------------
+
+Introduction:
+Rappel de rendez-vous médical et déjeuner
+
+Conversation:
+je vous rappelle vos rendez-vous de demain mardi à 11h vous avez
+rendez-vous chez le dentiste à 12h30 vous allez déjeuner au club des
+arts avec
+
+Questions:
+1. À quelle heure le rendez-vous chez le dentiste est-il prévu le lendemain ? 
+2. Avec qui ou où allez-vous déjeuner après votre rendez-vous chez le dentiste ?
+
+--------------------------------------------------
+
+Introduction:
+Réunion à l'entreprise Nissol
+
+Conversation:
+Madame segin et à 16h vous devez revenir au bureau pour la réunion
+avec le directeur de l'entreprise nissol bonne soirée situation numéro
+1
+
+Questions:
+1. À quelle heure faut-il revenir au bureau pour la réunion avec le directeur de l'entreprise Nissol?
+2. Quel est le nom de l'entreprise pour laquelle la réunion est prévue?
+
+--------------------------------------------------
+
+Introduction:
+Bienvenue à la formation
+
+Conversation:
+bonjour à tous et bienvenue à la formation euh je peux m'asseoir ici
+oui bien sûr prenez place asseyez-vous vous avez des petites bouteille
+d'eau si vous avez soif situation numéro 2
+
+Questions:
+1. Qu'est-ce que la personne propose de faire en arrivant à la formation ?
+2. Quels objets sont offerts aux participants pendant la formation ?
+
+--------------------------------------------------
+
+Introduction:
+Départ pour l'université par mauvais temps
+
+Conversation:
+merci tu vas à l'université oui je commence à 8h30 il pleut beaucoup
+aujourd'hui si situation numéro 3
+
+Questions:
+1. À quelle heure est-ce que la personne commence à l'université ?
+2. Est-ce que ça va pleuvoir aujourd'hui pour aller à l'université ?
+
+--------------------------------------------------
+
+Introduction:
+Rencontre avec un professeur
+
+Conversation:
+bonjour monsieur bonjour je suis le professeur du Ken où est la salle
+33 c'est ici
+
+Questions:
+1. Où le professeur du Ken cherche-t-il la salle 33 ?<point d'interrogation>
+2. Qui est le professeur du Ken dans ce dialogue ?<point d'interrogation>
+
+--------------------------------------------------
+
+Introduction:
+Visite au musée et recherche de stylo
+
+Conversation:
+Monsieur situation numéro 4 moi j'adore le peintre Mony et toi qu'est-
+ce que tu penses de cette peinture j'aime beaucoup cette exposition il
+est bien ce musée je vais revenir à avec les enfants la semaine
+prochaine situation numéro 5 tu n'as pas de stylo non je ne le trouve
+pas il est peut-être chez moi tiens prends celui-ci
+
+Questions:
+1. De quel peintre Monsieur situation numéro 4 apprécie-t-il les œuvres dans l'exposition? 
+2. Monsieur situation numéro 5 ne trouve pas son stylo, que propose-t-il à l'autre personne?
+
+--------------------------------------------------
+
+Introduction:
+Confirmation d'un dîner samedi soir
+
+Conversation:
+je t'appelle pour confirmer le dîner samedi soir à la maison
+
+Questions:
+1. À quelle occasion l'appel est-il fait pour confirmer le dîner samedi soir?
+2. Où le dîner est-il prévu pour samedi soir?
+
+--------------------------------------------------
+
+Introduction:
+Préparation pour une réunion
+
+Conversation:
+vous pouvez apporter deux baguettes nous avons aussi invité Didier et
+Michel ils apportent le dessert une tarte aux pommes bon alors à
+samedi
+
+Questions:
+1. Qu'est-ce que la personne doit apporter à la réunion ? 
+2. Qui a été invité à apporter le dessert et qu'est-ce qu'ils apportent ?
+
+--------------------------------------------------
+
+Introduction:
+Annonce d'un départ de vol
+
+Conversation:
+s'il vous plaît le vol AF 335 au départ de Paris et à destination de
+Nice va partir à 15h40 nous invitons tous les pass à se présenter
+porte 28
+
+Questions:
+1. À quelle heure le vol AF 335 va-t-il partir de Paris pour Nice ?
+2. À quelle porte les passagers sont-ils invités à se présenter pour le vol AF 335 ?
+
+--------------------------------------------------
+
+Introduction:
+Bienvenue chez France Air
+
+Conversation:
+nous vous remercions de voyager sur la compagnie France Air et
+
+Questions:
+1. Quelle compagnie aérienne est mentionnée dans le dialogue ? 
+2. Pourquoi la compagnie remercie-t-elle les voyageurs ?
+
+--------------------------------------------------
+
+Introduction:
+Rappel des rendez-vous de demain
+
+Conversation:
+je vous rappelle vos rendez-vous de demain mardi à 11h vous avez
+rendez-vous chez le dentiste à 12h30 vous allez déjeuner au club des
+arts avec
+
+Questions:
+1. À quelle heure a lieu le rendez-vous chez le dentiste demain ?
+2. Avec qui déjeunez-vous au club des arts demain ?
+
+--------------------------------------------------
+
+Introduction:
+Réunion d'après-midi avec le directeur
+
+Conversation:
+Madame segin et à 16h vous devez revenir au bureau pour la réunion
+avec le directeur de l'entreprise nissol bonne soirée situation numéro
+1
+
+Questions:
+1. À quelle heure faut-il revenir au bureau pour la réunion avec le directeur ?
+2. Quel est le nom de l'entreprise pour laquelle la réunion est prévue ?
+
+--------------------------------------------------
+
+Introduction:
+Formation de bienvenue
+
+Conversation:
+bonjour à tous et bienvenue à la formation euh je peux m'assoir ici
+oui bien sûr prenez place asseyez-vous vous avez des petites
+bouteilles d'eau si vous avez soif situation numéro 2
+
+Questions:
+1. Pourquoi l'interlocuteur demande-t-il la permission de s'asseoir ?
+2. Quels objets sont mentionnés pour les participants dans cette formation ?
+
+--------------------------------------------------
+
+Introduction:
+Pluie et horaire d'université
+
+Conversation:
+merci tu vas à l'université oui je commence à 8h30 il pleut beaucoup
+aujourd'hui situation numéro 3
+
+Questions:
+1. À quelle heure commence l'université aujourd'hui ?
+2. Est-il vrai que cela pleut beaucoup aujourd'hui ?
+
+--------------------------------------------------
+
+Introduction:
+Rencontre avec le professeur de Ken
+
+Conversation:
+bonjour monsieur bonjour je suis le professeur du Ken où est la salle
+33 c'est ici
+
+Questions:
+1. Où le professeur demande-t-il la salle pour son cours de Ken ?
+2. Quelle réponse reçoit le professeur concernant la salle ?
+
+--------------------------------------------------
+
+Introduction:
+Discussion sur une exposition de peinture
+
+Conversation:
+Monsieur situation numéro 4 moi j'adore le peintre monie et toi
+qu'est-ce que tu penses de cette peinture j'aime beaucoup cette
+exposition il est bien ce musée je vais revenir avec les enfants la
+semaine prochaine situation numéro 5 tu n'as pas de stylo non je ne le
+trouve pas il est peut-être chez moi tiens prends celui-ci
+
+Questions:
+1. Qu'est-ce que Monsieur Situation numéro 4 pense de la peinture et de l'exposition ?
+2. Pourquoi Monsieur Situation numéro 5 ne trouve-t-il pas son stylo et que propose-t-il à l'autre personne ?
+
+--------------------------------------------------
+

@@ -104,12 +104,12 @@ class FrenchTranscriptStructurer:
 Dialogue:
 {conversation}
 
-1. Donnez un titre court (5-8 mots) qui décrit ce dialogue.
-2. Créez 2 questions simples (sans choix multiples) qui peuvent être répondues uniquement à partir du dialogue.
+1. Donnez un titre descriptif (3-6 mots) pour ce dialogue, sans numéro de section.
+2. Créez 2 questions simples (sans choix multiples) qui peuvent être répondues à partir du dialogue.
 
 Utilisez exactement ce format:
 
-Titre: [titre du dialogue]
+Titre: [titre descriptif du dialogue]
 
 Questions:
 
@@ -160,8 +160,8 @@ Questions:
             # Generate title and questions for this section
             title, questions = self.generate_title_and_questions(cleaned_section)
             
-            # Use the generated title in the introduction
-            introduction = f"Section {i+1}: {title}"
+            # Use the generated title directly as the introduction (without Section #)
+            introduction = title
             
             # We're already getting simple questions without choices from the API
             # No need to extract them separately
@@ -211,7 +211,7 @@ Questions:
         return all_results
 
     def save_results(self, results: List[Dict[str, str]], output_dir: str):
-        """Save results to a file with the same name as the original file"""
+        """Save results to a file with the same name as the original file using the requested format"""
         os.makedirs(output_dir, exist_ok=True)
         
         # Group results by file name
@@ -229,9 +229,9 @@ Questions:
             
             with open(output_file, 'w', encoding='utf-8') as f:
                 for result in file_results:
-                    f.write(f"<introduction>\n{result['introduction']}\n</introduction>\n\n")
-                    f.write(f"<conversation>\n{result['conversation']}\n</conversation>\n\n")
-                    f.write(f"<questions>\n{result['questions']}\n</questions>\n\n")
+                    f.write(f"Introduction:\n{result['introduction']}\n\n")
+                    f.write(f"Conversation:\n{result['conversation']}\n\n")
+                    f.write(f"Questions:\n{result['questions']}\n\n")
                     f.write("-" * 50 + "\n\n")
             
             print(f"Saved questions to: {output_file}")
@@ -239,8 +239,8 @@ Questions:
 def main():
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description="DELF French Listening Comprehension Question Generator")
-    parser.add_argument("--transcript_dir", type=str, default="transcripts", 
-                        help="Directory containing transcript files (default: transcripts)")
+    parser.add_argument("--transcript_dir", type=str, default="data/transcripts", 
+                        help="Directory containing transcript files (default: data/transcripts)")
     # Output directory is now fixed to data/questions
     
     # Parse arguments
@@ -252,8 +252,8 @@ def main():
     # Initialize processor
     processor = FrenchTranscriptStructurer()
     
-    # Use transcript directory from command line arguments
-    transcript_dir = args.transcript_dir
+    # Use transcript directory from command line arguments or default to data/transcripts
+    transcript_dir = args.transcript_dir if args.transcript_dir != "transcripts" else "data/transcripts"
     
     # Check if transcript directory exists
     print(f"\nUsing transcript directory: {transcript_dir}")

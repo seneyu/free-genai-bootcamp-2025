@@ -1,323 +1,263 @@
-<introduction>
-Section 1: Annonce d'un départ de train à la gare
-</introduction>
+Introduction:
+Annonce d'un départ de train à la gare
 
-<conversation>
+Conversation:
 Mesdames et Messieurs le train 628 à destination Danesi va partir quai
 numéro 2 attention à la fermeture des portes attention au départ
-</conversation>
 
-<questions>
+Questions:
 1. Quel est le numéro du quai où le train 628 va partir? 
 2. À quelle destination est destiné le train 628?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 2: Annonce d'un départ de train
-</introduction>
+Introduction:
+Annonce d'un départ de train
 
-<conversation>
+Conversation:
 Mesdames et Messieurs le train 628 à destination d'esie va partir qu
 numéro 2 attention à la fermeture des portes attention au départ
-</conversation>
 
-<questions>
+Questions:
 1. Quel est le numéro du train qui part en direction d'Essie ?
 2. Quelle est l'avertissement donné aux passagers avant le départ du train ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 3: Appel téléphonique de Martine Breton de la banque internationale
-</introduction>
+Introduction:
+Appel téléphonique de Martine Breton de la banque internationale
 
-<conversation>
+Conversation:
 allô bonjour monsieur je suis Martine breton de la banque
 internationale
-</conversation>
 
-<questions>
+Questions:
 1. De quelle banque est Martine Breton ? 
 2. Quel est le nom de la personne qui appelle ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 4: Nouvelle carte de crédit à la banque
-</introduction>
+Introduction:
+Nouvelle carte de crédit à la banque
 
-<conversation>
+Conversation:
 vous pouvez venir chercher votre nouvelle carte de crédit la banque
 est ouverte de 9h à 17h du mardi au samedi en cas de problème appelez-
 moi au 01 45 78 90 54
-</conversation>
 
-<questions>
+Questions:
 1. À quelles heures la banque est-elle ouverte du mardi au samedi ?
 2. Quel numéro de téléphone est fourni pour contacter en cas de problème ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 5: Appel de Martine Breton de la Banque Internationale
-</introduction>
+Introduction:
+Appel de Martine Breton de la Banque Internationale
 
-<conversation>
+Conversation:
 allô bonjour monsieur je suis Martine breton de la banque
 internationale
-</conversation>
 
-<questions>
+Questions:
 1. De quelle banque est Martine Breton? 
 2. Quel est le nom de la personne qui appelle?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 6: Informations sur la nouvelle carte de crédit et heures de la banque
-</introduction>
+Introduction:
+Informations sur la nouvelle carte de crédit et heures de la banque
 
-<conversation>
+Conversation:
 vous pouvez venir chercher votre nouvelle carte de crédit la banque
 est ouverte de 9h à 17h du mardi au samedi en cas de problème appelez-
 moi au 01 45 78 90 54 situation numéro 1 bonsoir deux entrées
-</conversation>
 
-<questions>
+Questions:
 1. À quelles heures la banque est-elle ouverte du mardi au samedi ?
 2. Quel est le numéro de téléphone pour contacter en cas de problème ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 7: Demandes diverses sur un film et un prix
-</introduction>
+Introduction:
+Demandes diverses sur un film et un prix
 
-<conversation>
+Conversation:
 s'il vous plaît pour quel film Les sœurs fâchées situation numéro 2
 combien coûte un kilo d'orange
-</conversation>
 
-<questions>
+Questions:
 1. Pour quel film les sœurs fâchées est-il question dans la situation numéro 2?
 2. Combien coûte un kilo d'orange selon le dialogue?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 8: Négociation de prix pour des pommes de terre
-</introduction>
+Introduction:
+Négociation de prix pour des pommes de terre
 
-<conversation>
+Conversation:
 s'il vous plaît 1 € le kilo et 2,50 € les trois et bien alors 3 kg
 situation numéro 3 pour aller à la mairie
-</conversation>
 
-<questions>
+Questions:
 1. Combien coûte 1 kg de pommes de terre ?
 2. Combien de kilogrammes de pommes de terre achète la personne ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 9: Prendre le bus 167
-</introduction>
+Introduction:
+Prendre le bus 167
 
-<conversation>
+Conversation:
 s'il vous plaît vous prenez le bus 167 c'est là au bout de la rue
-</conversation>
 
-<questions>
-1. Quel bus faut-il prendre pour aller au bout de la rue?<?xml version="1.0" encoding="UTF-8" ?>
-2. Où se trouve le bus 167 selon la personne qui parle?<?xml version="1.0" encoding="UTF-8" ?>
-</questions>
+Questions:
+1. Quel bus faut-il prendre pour aller au bout de la rue?
+2. Où se trouve le bus 167 selon la personne qui parle?
 
 --------------------------------------------------
 
-<introduction>
-Section 10: Discussion sur l'anniversaire de Julie et une situation
-</introduction>
+Introduction:
+Discussion sur l'anniversaire de Julie et une situation
 
-<conversation>
+Conversation:
 merci monsieur situation numéro 4 c'est bientôt l'anniversaire de
 Julie ah oui elle est née quel jour le 22 décembre situation numéro 1
 bonsoir deux entrées
-</conversation>
 
-<questions>
+Questions:
 1. Quel jour est né Julie selon le dialogue ?
 2. Combien de situations sont mentionnées dans le dialogue ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 11: Discussion sur un film et le prix d'une orange
-</introduction>
+Introduction:
+Discussion sur un film et le prix d'une orange
 
-<conversation>
+Conversation:
 s'il vous plaît pour quel film Les sœurs fâchées situation numéro 2
 combien coûte un kilo d'orange
-</conversation>
 
-<questions>
+Questions:
 1. Quel est le numéro de la situation du film Les sœurs fâchées dont on parle dans le dialogue?
 2. Quel est le coût demandé pour un kilo d'orange?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 12: Négociation de prix au marché pour un trajet
-</introduction>
+Introduction:
+Négociation de prix au marché pour un trajet
 
-<conversation>
+Conversation:
 s'il vous plaît 1 € le kilo et 2,50 € les trois et bien alors 3 kg
 situation numéro 3 pour aller à la mairie
-</conversation>
 
-<questions>
+Questions:
 1. Quel est le prix d'un kilo de produit au marché ?
 2. Combien de kilogrammes de produit le client souhaite-t-il acheter pour aller à la mairie ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 13: Prendre le bus 167
-</introduction>
+Introduction:
+Prendre le bus 167
 
-<conversation>
+Conversation:
 s'il vous plaît vous prenez le bus 167 c'est là au bout de la rue
-</conversation>
 
-<questions>
-1. Quel bus faut-il prendre pour aller au bout de la rue?<?xml version="1.0" encoding="UTF-8"?><Response><feedback>Titre et questions sont bien construits et répondent correctement aux exigences du niveau A1-A2.</feedback></Response>
-2. Où se trouve le bus 167 selon le dialogue?<?xml version="1.0" encoding="UTF-8"?><Response><feedback>Les questions sont pertinentes et permettent de vérifier la compréhension du dialogue.</feedback></Response>
-</questions>
+Questions:
+1. Quel bus faut-il prendre pour aller au bout de la rue?
+2. Où se trouve le bus 167 selon le dialogue?
 
 --------------------------------------------------
 
-<introduction>
-Section 14: Discussion sur l'anniversaire de Julie
-</introduction>
+Introduction:
+Discussion sur l'anniversaire de Julie
 
-<conversation>
+Conversation:
 merci Monsieur situation numéro 4 c'est bientôt l'anniversaire de
 Julie ah oui elle est née quel jour le 22 décembre
-</conversation>
 
-<questions>
+Questions:
 1. Quel jour Julie est-elle née selon le dialogue ?
 2. Qui est mentionné dans le dialogue en lien avec la discussion de l'anniversaire de Julie ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 15: Annonce d'un départ de train à la gare
-</introduction>
+Introduction:
+Annonce d'un départ de train à la gare
 
-<conversation>
+Conversation:
 Mesdames et Messieurs le train 628 à destination d'esie va partir quai
 numéro 2 attention à la fermeture des portes attention au départ
-</conversation>
 
-<questions>
+Questions:
 1. À quel numéro de quai le train 628 va-t-il partir ?
 2. Quelle destination est mentionnée pour le train 628 ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 16: Appel téléphonique de Martine Breton de la banque internationale
-</introduction>
+Introduction:
+Appel téléphonique de Martine Breton de la banque internationale
 
-<conversation>
+Conversation:
 allô bonjour monsieur je suis Martine breton de la banque
 internationale
-</conversation>
 
-<questions>
+Questions:
 1. De quelle banque est Martine Breton? 
 2. Comment s'appelle la personne qui parle dans le dialogue?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 17: Dialogues de situations quotidiennes en français
-</introduction>
+Introduction:
+Dialogues de situations quotidiennes en français
 
-<conversation>
+Conversation:
 vous pouvez venir chercher votre nouvelle carte de crédit la banque
 est ouverte de 9h à 17h du mardi au samedi en cas de problème appelez-
 moi au 01 45 78 90 54 situation numéro 1 bonsoir deux entrées s'il
 vous plî plî pour quel film Les sœurs fâchées situation numéro 2
 combien coûte un kilo d'orange
-</conversation>
 
-<questions>
+Questions:
 1. À quelles heures la banque est-elle ouverte du mardi au samedi ?
 2. Quel est le numéro de téléphone pour contacter en cas de problème ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 18: Négociation du prix des pommes pour se rendre à la mairie
-</introduction>
+Introduction:
+Négociation du prix des pommes pour se rendre à la mairie
 
-<conversation>
+Conversation:
 s'il vous plaît 1 € le kilo et 2,50 € les trois et bien alors 3 kg
 situation numéro 3 pour aller à la mairie
-</conversation>
 
-<questions>
+Questions:
 1. Quel est le prix d'un kilo de pommes selon le dialogue ?
 2. Combien de kilogrammes de pommes sont achetés dans ce dialogue ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 19: Instructions pour prendre le bus 167
-</introduction>
+Introduction:
+Instructions pour prendre le bus 167
 
-<conversation>
+Conversation:
 s'il vous plaît vous prenez le bus 167 c'est là au bout de la rue
-</conversation>
 
-<questions>
+Questions:
 1. Quel bus doit-on prendre pour se rendre au bout de la rue ?
 2. Où se trouve le bus 167 selon les instructions données ?
-</questions>
 
 --------------------------------------------------
 
-<introduction>
-Section 20: Discussion sur l'anniversaire de Julie
-</introduction>
+Introduction:
+Discussion sur l'anniversaire de Julie
 
-<conversation>
+Conversation:
 merci Monsieur situation numéro 4 c'est bientôt l'anniversaire de
 Julie ah oui elle est née quel jour le 22 décembre
-</conversation>
 
-<questions>
+Questions:
 1. Quel jour Julie est-elle née selon le dialogue?
 2. Qui est mentionné comme étant proche de l'anniversaire dans la conversation?
-</questions>
 
 --------------------------------------------------
 
