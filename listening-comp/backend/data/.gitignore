@@ -1,0 +1,13 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+# And these directories
+!audio/
+!temp/ 
+
+vectorstore/*
+vectorstore/**/*
+*.bin
+*.sqlite3
+*.mp3

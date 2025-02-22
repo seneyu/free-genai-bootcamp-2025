@@ -1,4 +1,5 @@
 import sys
+import os
 from pathlib import Path
 
 # Add parent directory to Python path
@@ -8,6 +9,7 @@ import streamlit as st
 from backend.question_generator import QuestionGenerator
 from backend.question_store import QuestionStore
 from datetime import datetime
+from backend.audio_generator import AudioGenerator
 
 # Page config
 st.set_page_config(
@@ -30,6 +32,7 @@ def main():
     # Initialize generators and stores
     generator = QuestionGenerator()
     question_store = QuestionStore()
+    audio_generator = AudioGenerator()
     
     # Sidebar for saved questions
     with st.sidebar:
@@ -210,15 +213,66 @@ def main():
     
     with col2:
         st.subheader("Audio")
-        st.info("Audio feature coming soon...")
-        
-        st.subheader("Conseils d'étude")
-        st.info("""
-        - Écoutez le dialogue plusieurs fois
-        - Notez les mots clés
-        - Concentrez-vous sur le contexte
-        - Comprenez d'abord le sens général
-        """)
+        if st.session_state.current_exercise:
+            exercise = st.session_state.current_exercise
+            
+            # Generate audio button
+            if "audio_file" not in st.session_state:
+                st.session_state.audio_file = None
+                
+            if st.button("Generate Audio"):
+                with st.spinner("Generating audio..."):
+                    try:
+                        # Clear previous audio if exists
+                        if "audio_bytes" in st.session_state:
+                            del st.session_state.audio_bytes
+                            
+                        # Generate new audio file
+                        audio_file = audio_generator.generate_exercise_audio(
+                            exercise.conversation,
+                            exercise.questions
+                        )
+                        
+                        # Verify file exists and has content
+                        if os.path.exists(audio_file) and os.path.getsize(audio_file) > 0:
+                            st.session_state.audio_file = audio_file
+                            
+                            # Read file immediately to cache the bytes
+                            with open(audio_file, "rb") as f:
+                                st.session_state.audio_bytes = f.read()
+                                
+                            st.success(f"Audio generated successfully: {os.path.basename(audio_file)} ({os.path.getsize(audio_file)/1024:.1f} KB)")
+                        else:
+                            st.error(f"Audio file was not created properly: {audio_file}")
+                    except Exception as e:
+                        st.error(f"Error generating audio: {str(e)}")
+                        import traceback
+                        st.exception(traceback.format_exc())
+            
+            # Audio playback
+            if "audio_bytes" in st.session_state and st.session_state.audio_bytes:
+                st.audio(st.session_state.audio_bytes, format="audio/mp3")
+                
+                # Provide download option
+                if st.session_state.audio_file:
+                    filename = os.path.basename(st.session_state.audio_file)
+                    st.download_button(
+                        label="Download Audio",
+                        data=st.session_state.audio_bytes,
+                        file_name=filename,
+                        mime="audio/mp3"
+                    )
+            elif st.session_state.audio_file and os.path.exists(st.session_state.audio_file):
+                try:
+                    # Try reading the file again if bytes weren't cached
+                    with open(st.session_state.audio_file, "rb") as f:
+                        audio_bytes = f.read()
+                    st.audio(audio_bytes, format="audio/mp3")
+                    st.session_state.audio_bytes = audio_bytes  # Cache for next time
+                except Exception as e:
+                    st.error(f"Error reading audio file: {str(e)}")
+        else:
+            st.info("Audio feature will be available after generating a question")
 
 if __name__ == "__main__":
     main()

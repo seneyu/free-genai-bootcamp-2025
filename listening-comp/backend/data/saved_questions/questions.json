@@ -60,5 +60,315 @@
       "C",
       "C"
     ]
+  },
+  {
+    "id": "20250221_142255",
+    "timestamp": "2025-02-21T14:22:55.288807",
+    "topic": "Shopping",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Jean sont dans une \u00e9picerie. Marie regarde les fruits.\n\nMarie: Regarde ces pommes, elles sont d\u00e9licieuses!\n\nJean: Oui, mais elles sont un peu ch\u00e8res. Est-ce que tu veux les acheter?\n\nMarie: Je ne sais pas. Il faut aussi que j'ach\u00e8te du pain et des \u0153ufs.\n\nJean: On peut peut-\u00eatre se contenter de quelques pommes.\n\nMarie: D'accord, on prendra deux pommes et on y va.",
+    "questions": [
+      {
+        "question": "Combien de pommes Marie et Jean ach\u00e8tent-ils?",
+        "options": [
+          "Une seule",
+          "Deux",
+          "Trois",
+          "Quatre"
+        ]
+      },
+      {
+        "question": "Pourquoi Marie est-elle ind\u00e9cise au d\u00e9but?",
+        "options": [
+          "Parce qu'elle veut acheter trop de choses",
+          "Parce que les pommes sont ch\u00e8res",
+          "Parce qu'il n'y a pas assez de place dans le panier",
+          "Parce qu'elle n'aime pas les fruits"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "20250221_142848",
+    "timestamp": "2025-02-21T14:28:48.085840",
+    "topic": "Food & Restaurant",
+    "practice_type": "Dialogue Practice",
+    "conversation": "**\n\nJeanne et Marc entrent dans un restaurant et s'assoient \u00e0 une table. Le serveur les accueille.\n\n**Serveur:** Bonjour, bienvenue au restaurant. Puis-je vous prendre une commande ?\n\n**Jeanne:** Bonjour, nous aimerions voir le menu s'il vous pla\u00eet.\n\n**Marc:** Oui, surtout pour les plats v\u00e9g\u00e9tariens.\n\n**Serveur:** Bien s\u00fbr, voici le menu. Nous avons une belle s\u00e9lection de plats v\u00e9g\u00e9tariens.\n\n**Jeanne:** Merci. J'aimerais prendre le risotto aux champignons.\n\n**Marc:** Et moi, je prendrai la pizza aux l\u00e9gumes.\n\n**Serveur:** Parfait, je note vos commandes.\n\n**",
+    "questions": [
+      {
+        "question": "Que souhaite Jeanne commander au restaurant ?",
+        "options": [
+          "Une pizza aux l\u00e9gumes",
+          "Un risotto aux champignons",
+          "Un burger",
+          "Une salade"
+        ]
+      },
+      {
+        "question": "Quel est le plat que Marc a choisi ?",
+        "options": [
+          "Risotto aux champignons",
+          "Pizza aux l\u00e9gumes",
+          "Salade",
+          "Soupe de tomates\n\n**"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "id": "20250221_143014",
+    "timestamp": "2025-02-21T14:30:14.917802",
+    "topic": "Daily Life",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Jean se rencontrent au petit d\u00e9jeuner dans un caf\u00e9.\n\nMarie: Bonjour Jean ! Comment \u00e7a va ?\n\nJean: Bonjour Marie ! \u00c7a va bien, merci. Et toi ?\n\nMarie: \u00c7a va aussi. J\u2019ai pr\u00e9par\u00e9 un smoothie ce matin.\n\nJean: Oh, j\u2019aime bien les smoothies. Qu\u2019est-ce que tu as mis dedans ?\n\nMarie: J\u2019ai mis des bananes, des myrtilles et du lait d\u2019amande.\n\nJean: \u00c7a a l\u2019air d\u00e9licieux ! Je veux en go\u00fbter un jour.\n\nMarie: Bien s\u00fbr, tu peux en venir boire un avec moi.",
+    "questions": [
+      {
+        "question": "Qu\u2019est-ce que Marie a pr\u00e9par\u00e9 pour le petit d\u00e9jeuner ?",
+        "options": [
+          "Un sandwich",
+          "Un smoothie",
+          "Un croissant",
+          "Un caf\u00e9"
+        ]
+      },
+      {
+        "question": "Qu\u2019est-ce que Jean veut go\u00fbter un jour ?",
+        "options": [
+          "Un sandwich",
+          "Un smoothie",
+          "Un caf\u00e9",
+          "Un croissant"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "B",
+      "B"
+    ]
+  },
+  {
+    "id": "20250221_144352",
+    "timestamp": "2025-02-21T14:43:52.486363",
+    "topic": "Weather",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Jean se rencontrent dans la rue. \n\nMarie: Bonjour Jean! Comment \u00e7a va?\n\nJean: Bonjour Marie! \u00c7a va bien, merci. Et toi?\n\nMarie: \u00c7a va aussi. Dis-moi, qu'est-ce que la m\u00e9t\u00e9o pour aujourd'hui?\n\nJean: Aujourd'hui, il fait tr\u00e8s chaud, mais il y a beaucoup de nuages. Il va peut-\u00eatre pleuvoir plus tard.\n\nMarie: Ah oui? Je veux porter une robe l\u00e9g\u00e8re aujourd'hui. J'esp\u00e8re qu'il ne pleuvra pas trop.\n\nJean: Je ne pense pas. C'est juste une petite chance de pluie.",
+    "questions": [
+      {
+        "question": "Selon Jean, qu'est-ce qui est pr\u00e9vu pour la m\u00e9t\u00e9o aujourd'hui?",
+        "options": [
+          "Il fera tr\u00e8s froid.",
+          "Il y aura beaucoup de soleil.",
+          "Il fera tr\u00e8s chaud avec beaucoup de nuages et une petite chance de pluie.",
+          "Il y aura un blizzard."
+        ]
+      },
+      {
+        "question": "Que va porter Marie aujourd'hui?",
+        "options": [
+          "Un manteau chaud.",
+          "Une robe l\u00e9g\u00e8re.",
+          "Des chaussures de pluie.",
+          "Un chapeau."
+        ]
+      }
+    ],
+    "correct_answers": [
+      "C",
+      "B"
+    ]
+  },
+  {
+    "id": "20250221_144834",
+    "timestamp": "2025-02-21T14:48:34.903770",
+    "topic": "Daily Life",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Julien se rencontrent devant le bureau de poste.\n\nMarie: Bonjour Julien! Tu vas bien aujourd'hui?\n\nJulien: Bonjour Marie! Oui, merci. Et toi?\n\nMarie: Moi aussi, je vais bien. Est-ce que tu as le temps de boire un caf\u00e9 avec moi apr\u00e8s le travail?\n\nJulien: Je suis d\u00e9sol\u00e9, mais je dois aller \u00e0 une r\u00e9union apr\u00e8s mon travail. Peut-\u00eatre une autre fois.\n\nMarie: D'accord, on se reverra bient\u00f4t alors.\n\nJulien: Oui, \u00e0 bient\u00f4t!",
+    "questions": [
+      {
+        "question": "Qui est Marie?",
+        "options": [
+          "Un ami de Julien",
+          "Une coll\u00e8gue de Julien",
+          "Une cliente du bureau de poste",
+          "Un coll\u00e8gue de travail de Julien"
+        ]
+      },
+      {
+        "question": "Que va faire Julien apr\u00e8s son travail?",
+        "options": [
+          "Aller \u00e0 un restaurant",
+          "Participer \u00e0 une r\u00e9union",
+          "Acheter des caf\u00e9s",
+          "Se reposer chez lui"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "id": "20250221_145151",
+    "timestamp": "2025-02-21T14:51:51.815940",
+    "topic": "Daily Life",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Jean se rencontrent dans le hall de leur immeuble le matin.\n\nMarie : Bonjour Jean ! Tu es pr\u00eat pour ta journ\u00e9e de travail ?\n\nJean : Bonjour Marie ! Oui, je suis pr\u00eat. Je vais au bureau aujourd'hui. Et toi, comment \u00e7a va ?\n\nMarie : \u00c7a va bien, merci. Je vais faire quelques courses avant d'aller \u00e0 l'\u00e9cole. \u00c0 plus tard !\n\nJean : \u00c0 plus tard, Marie !",
+    "questions": [
+      {
+        "question": "O\u00f9 Jean va-t-il aujourd'hui ?",
+        "options": [
+          "\u00c0 l'\u00e9cole",
+          "Au bureau",
+          "Au supermarch\u00e9",
+          "\u00c0 la plage"
+        ]
+      },
+      {
+        "question": "Que fait Marie apr\u00e8s ses courses ?",
+        "options": [
+          "Elle va au travail",
+          "Elle va \u00e0 l'\u00e9cole",
+          "Elle va faire du sport",
+          "Elle va voir un ami"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "id": "20250221_150036",
+    "timestamp": "2025-02-21T15:00:36.483278",
+    "topic": "Daily Life",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Pierre se rencontrent dans le hall de leur immeuble le matin.\n\nMarie: Bonjour Pierre! As-tu d\u00e9j\u00e0 pris le petit-d\u00e9jeuner?\n\nPierre: Bonjour Marie! Non, pas encore. J'ai pr\u00e9vu de manger une pomme et un peu de pain. Et toi?\n\nMarie: Moi, j'ai pris un caf\u00e9 et des croissants. J'ai aussi lu un peu de journal pendant que je mangeais.\n\nPierre: \u00c7a semble d\u00e9licieux! Je vais essayer \u00e7a demain.",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Pierre a pr\u00e9vu de manger pour le petit-d\u00e9jeuner?",
+        "options": [
+          "Un caf\u00e9 et des croissants",
+          "Une pomme et un peu de pain",
+          "Un croissant et un caf\u00e9",
+          "Des croissants et un jus d'orange"
+        ]
+      },
+      {
+        "question": "Qu'est-ce que Marie a fait pendant qu'elle mangeait son petit-d\u00e9jeuner?",
+        "options": [
+          "Elle a pris un caf\u00e9",
+          "Elle a lu un peu de journal",
+          "Elle a regard\u00e9 la t\u00e9l\u00e9vision",
+          "Elle a parl\u00e9 au t\u00e9l\u00e9phone"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "B",
+      "B"
+    ]
+  },
+  {
+    "id": "20250221_150825",
+    "timestamp": "2025-02-21T15:08:25.830663",
+    "topic": "Daily Life",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Jean se rencontrent au petit d\u00e9jeuner dans un caf\u00e9.\n\nMarie: Bonjour Jean! Tu viens de ton travail ?\n\nJean: Bonjour Marie! Oui, je viens juste de finir mes huit heures de travail. Tu vas bien ?\n\nMarie: Je vais tr\u00e8s bien, merci. J\u2019ai pass\u00e9 la journ\u00e9e \u00e0 faire du b\u00e9n\u00e9volat \u00e0 la biblioth\u00e8que.\n\nJean: C\u2019est super! \u00c7a fait du bien de donner un peu de son temps.\n\nMarie: Oui, \u00e7a l\u2019est. \u00c0 propos, tu as vu le nouveau menu au caf\u00e9 ? Ils ont ajout\u00e9 des smoothies frais.\n\nJean: Non, je ne l\u2019ai pas vu encore. Je vais y aller cet apr\u00e8s-midi.",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Marie a fait hier ?",
+        "options": [
+          "Elle a travaill\u00e9 toute la journ\u00e9e.",
+          "Elle a fait du b\u00e9n\u00e9volat \u00e0 la biblioth\u00e8que.",
+          "Elle a mang\u00e9 un smoothie au caf\u00e9.",
+          "Elle a vu le nouveau menu."
+        ]
+      },
+      {
+        "question": "Pourquoi Jean va-t-il au caf\u00e9 cet apr\u00e8s-midi ?",
+        "options": [
+          "Pour voir le nouveau menu.",
+          "Pour prendre un smoothie.",
+          "Pour travailler.",
+          "Pour faire du b\u00e9n\u00e9volat."
+        ]
+      }
+    ],
+    "correct_answers": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "id": "20250221_151425",
+    "timestamp": "2025-02-21T15:14:25.716258",
+    "topic": "Family",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie: Bonjour, Pierre ! Comment \u00e7a va ?\nPierre: Salut, Marie ! \u00c7a va bien, merci. Et toi ?\nMarie: Moi aussi, \u00e7a va tr\u00e8s bien. Ta m\u00e8re est \u00e0 la maison aujourd'hui ?\nPierre: Oui, elle est l\u00e0. Elle pr\u00e9pare le d\u00e9jeuner. Tu veux venir manger avec nous ?\nMarie: Oui, j'aimerais beaucoup. Merci !",
+    "questions": [
+      {
+        "question": "Qui pr\u00e9pare le d\u00e9jeuner chez Pierre ?",
+        "options": [
+          "Marie",
+          "Pierre",
+          "La m\u00e8re de Pierre",
+          "Un ami"
+        ]
+      },
+      {
+        "question": "Que veut Marie faire apr\u00e8s le dialogue ?",
+        "options": [
+          "Aller au travail",
+          "Rester chez Pierre",
+          "Manger avec Pierre et sa m\u00e8re",
+          "Sortir avec ses amis"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "C",
+      "C"
+    ]
+  },
+  {
+    "id": "20250221_151655",
+    "timestamp": "2025-02-21T15:16:55.731725",
+    "topic": "Travel",
+    "practice_type": "Dialogue Practice",
+    "conversation": "Marie et Jean se pr\u00e9parent pour leur voyage en Italie. \n\nMarie : \"Jean, as-tu d\u00e9j\u00e0 r\u00e9serv\u00e9 nos billets d'avion ?\"\n\nJean : \"Oui, Marie, je les ai r\u00e9serv\u00e9s pour le 15 juin. Et les h\u00f4tels \u00e0 Rome et \u00e0 Florence aussi.\"\n\nMarie : \"Super ! Je vais pr\u00e9parer notre valise. Tu as pens\u00e9 aux passeports ?\"\n\nJean : \"Oui, les passeports sont en ordre. Nous avons aussi achet\u00e9 des guides de voyage.\"\n\nMarie : \"Parfait ! Je suis tellement excit\u00e9e pour cette aventure.\"",
+    "questions": [
+      {
+        "question": "O\u00f9 Marie et Jean pr\u00e9voient-ils de voyager ?",
+        "options": [
+          "En France",
+          "En Espagne",
+          "En Italie",
+          "Aux \u00c9tats-Unis"
+        ]
+      },
+      {
+        "question": "Qu'ont-ils d\u00e9j\u00e0 fait pour leur voyage ?",
+        "options": [
+          "R\u00e9serv\u00e9 les billets d'avion et les h\u00f4tels",
+          "Achet\u00e9 des billets de train",
+          "Lou\u00e9 une voiture",
+          "R\u00e9serv\u00e9 des chambres d'h\u00f4tes"
+        ]
+      }
+    ],
+    "correct_answers": [
+      "C",
+      "A"
+    ]
   }
 ]
