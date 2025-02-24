@@ -1,0 +1,302 @@
+[
+  {
+    "french": "grand",
+    "english": "big/tall",
+    "parts": {
+      "masculine": "grand",
+      "feminine": "grande",
+      "masculine_plural": "grands",
+      "feminine_plural": "grandes"
+    }
+  },
+  {
+    "french": "petit",
+    "english": "small",
+    "parts": {
+      "masculine": "petit",
+      "feminine": "petite",
+      "masculine_plural": "petits",
+      "feminine_plural": "petites"
+    }
+  },
+  {
+    "french": "beau",
+    "english": "beautiful",
+    "parts": {
+      "masculine": "beau",
+      "feminine": "belle",
+      "masculine_plural": "beaux",
+      "feminine_plural": "belles"
+    }
+  },
+  {
+    "french": "nouveau",
+    "english": "new",
+    "parts": {
+      "masculine": "nouveau",
+      "feminine": "nouvelle",
+      "masculine_plural": "nouveaux",
+      "feminine_plural": "nouvelles"
+    }
+  },
+  {
+    "french": "vieux",
+    "english": "old",
+    "parts": {
+      "masculine": "vieux",
+      "feminine": "vieille",
+      "masculine_plural": "vieux",
+      "feminine_plural": "vieilles"
+    }
+  },
+  {
+    "french": "bon",
+    "english": "good",
+    "parts": {
+      "masculine": "bon",
+      "feminine": "bonne",
+      "masculine_plural": "bons",
+      "feminine_plural": "bonnes"
+    }
+  },
+  {
+    "french": "mauvais",
+    "english": "bad",
+    "parts": {
+      "masculine": "mauvais",
+      "feminine": "mauvaise",
+      "masculine_plural": "mauvais",
+      "feminine_plural": "mauvaises"
+    }
+  },
+  {
+    "french": "jeune",
+    "english": "young",
+    "parts": {
+      "masculine": "jeune",
+      "feminine": "jeune",
+      "masculine_plural": "jeunes",
+      "feminine_plural": "jeunes"
+    }
+  },
+  {
+    "french": "long",
+    "english": "long",
+    "parts": {
+      "masculine": "long",
+      "feminine": "longue",
+      "masculine_plural": "longs",
+      "feminine_plural": "longues"
+    }
+  },
+  {
+    "french": "court",
+    "english": "short",
+    "parts": {
+      "masculine": "court",
+      "feminine": "courte",
+      "masculine_plural": "courts",
+      "feminine_plural": "courtes"
+    }
+  },
+  {
+    "french": "chaud",
+    "english": "hot",
+    "parts": {
+      "masculine": "chaud",
+      "feminine": "chaude",
+      "masculine_plural": "chauds",
+      "feminine_plural": "chaudes"
+    }
+  },
+  {
+    "french": "froid",
+    "english": "cold",
+    "parts": {
+      "masculine": "froid",
+      "feminine": "froide",
+      "masculine_plural": "froids",
+      "feminine_plural": "froides"
+    }
+  },
+  {
+    "french": "facile",
+    "english": "easy",
+    "parts": {
+      "masculine": "facile",
+      "feminine": "facile",
+      "masculine_plural": "faciles",
+      "feminine_plural": "faciles"
+    }
+  },
+  {
+    "french": "difficile",
+    "english": "difficult",
+    "parts": {
+      "masculine": "difficile",
+      "feminine": "difficile",
+      "masculine_plural": "difficiles",
+      "feminine_plural": "difficiles"
+    }
+  },
+  {
+    "french": "rapide",
+    "english": "fast",
+    "parts": {
+      "masculine": "rapide",
+      "feminine": "rapide",
+      "masculine_plural": "rapides",
+      "feminine_plural": "rapides"
+    }
+  },
+  {
+    "french": "lent",
+    "english": "slow",
+    "parts": {
+      "masculine": "lent",
+      "feminine": "lente",
+      "masculine_plural": "lents",
+      "feminine_plural": "lentes"
+    }
+  },
+  {
+    "french": "fort",
+    "english": "strong",
+    "parts": {
+      "masculine": "fort",
+      "feminine": "forte",
+      "masculine_plural": "forts",
+      "feminine_plural": "fortes"
+    }
+  },
+  {
+    "french": "faible",
+    "english": "weak",
+    "parts": {
+      "masculine": "faible",
+      "feminine": "faible",
+      "masculine_plural": "faibles",
+      "feminine_plural": "faibles"
+    }
+  },
+  {
+    "french": "heureux",
+    "english": "happy",
+    "parts": {
+      "masculine": "heureux",
+      "feminine": "heureuse",
+      "masculine_plural": "heureux",
+      "feminine_plural": "heureuses"
+    }
+  },
+  {
+    "french": "triste",
+    "english": "sad",
+    "parts": {
+      "masculine": "triste",
+      "feminine": "triste",
+      "masculine_plural": "tristes",
+      "feminine_plural": "tristes"
+    }
+  },
+  {
+    "french": "gentil",
+    "english": "nice/kind",
+    "parts": {
+      "masculine": "gentil",
+      "feminine": "gentille",
+      "masculine_plural": "gentils",
+      "feminine_plural": "gentilles"
+    }
+  },
+  {
+    "french": "méchant",
+    "english": "mean",
+    "parts": {
+      "masculine": "méchant",
+      "feminine": "méchante",
+      "masculine_plural": "méchants",
+      "feminine_plural": "méchantes"
+    }
+  },
+  {
+    "french": "intéressant",
+    "english": "interesting",
+    "parts": {
+      "masculine": "intéressant",
+      "feminine": "intéressante",
+      "masculine_plural": "intéressants",
+      "feminine_plural": "intéressantes"
+    }
+  },
+  {
+    "french": "ennuyeux",
+    "english": "boring",
+    "parts": {
+      "masculine": "ennuyeux",
+      "feminine": "ennuyeuse",
+      "masculine_plural": "ennuyeux",
+      "feminine_plural": "ennuyeuses"
+    }
+  },
+  {
+    "french": "riche",
+    "english": "rich",
+    "parts": {
+      "masculine": "riche",
+      "feminine": "riche",
+      "masculine_plural": "riches",
+      "feminine_plural": "riches"
+    }
+  },
+  {
+    "french": "pauvre",
+    "english": "poor",
+    "parts": {
+      "masculine": "pauvre",
+      "feminine": "pauvre",
+      "masculine_plural": "pauvres",
+      "feminine_plural": "pauvres"
+    }
+  },
+  {
+    "french": "propre",
+    "english": "clean",
+    "parts": {
+      "masculine": "propre",
+      "feminine": "propre",
+      "masculine_plural": "propres",
+      "feminine_plural": "propres"
+    }
+  },
+  {
+    "french": "sale",
+    "english": "dirty",
+    "parts": {
+      "masculine": "sale",
+      "feminine": "sale",
+      "masculine_plural": "sales",
+      "feminine_plural": "sales"
+    }
+  },
+  {
+    "french": "plein",
+    "english": "full",
+    "parts": {
+      "masculine": "plein",
+      "feminine": "pleine",
+      "masculine_plural": "pleins",
+      "feminine_plural": "pleines"
+    }
+  },
+  {
+    "french": "vide",
+    "english": "empty",
+    "parts": {
+      "masculine": "vide",
+      "feminine": "vide",
+      "masculine_plural": "vides",
+      "feminine_plural": "vides"
+    }
+  }
+]

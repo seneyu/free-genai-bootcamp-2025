@@ -1,0 +1,512 @@
+[
+  {
+    "french": "être",
+    "english": "to be",
+    "parts": {
+      "infinitive": "être",
+      "present": {
+        "je": "suis",
+        "tu": "es",
+        "il/elle": "est",
+        "nous": "sommes",
+        "vous": "êtes",
+        "ils/elles": "sont"
+      }
+    }
+  },
+  {
+    "french": "avoir",
+    "english": "to have",
+    "parts": {
+      "infinitive": "avoir",
+      "present": {
+        "je": "ai",
+        "tu": "as",
+        "il/elle": "a",
+        "nous": "avons",
+        "vous": "avez",
+        "ils/elles": "ont"
+      }
+    }
+  },
+  {
+    "french": "aller",
+    "english": "to go",
+    "parts": {
+      "infinitive": "aller",
+      "present": {
+        "je": "vais",
+        "tu": "vas",
+        "il/elle": "va",
+        "nous": "allons",
+        "vous": "allez",
+        "ils/elles": "vont"
+      }
+    }
+  },
+  {
+    "french": "faire",
+    "english": "to do/make",
+    "parts": {
+      "infinitive": "faire",
+      "present": {
+        "je": "fais",
+        "tu": "fais",
+        "il/elle": "fait",
+        "nous": "faisons",
+        "vous": "faites",
+        "ils/elles": "font"
+      }
+    }
+  },
+  {
+    "french": "parler",
+    "english": "to speak",
+    "parts": {
+      "infinitive": "parler",
+      "present": {
+        "je": "parle",
+        "tu": "parles",
+        "il/elle": "parle",
+        "nous": "parlons",
+        "vous": "parlez",
+        "ils/elles": "parlent"
+      }
+    }
+  },
+  {
+    "french": "manger",
+    "english": "to eat",
+    "parts": {
+      "infinitive": "manger",
+      "present": {
+        "je": "mange",
+        "tu": "manges",
+        "il/elle": "mange",
+        "nous": "mangeons",
+        "vous": "mangez",
+        "ils/elles": "mangent"
+      }
+    }
+  },
+  {
+    "french": "boire",
+    "english": "to drink",
+    "parts": {
+      "infinitive": "boire",
+      "present": {
+        "je": "bois",
+        "tu": "bois",
+        "il/elle": "boit",
+        "nous": "buvons",
+        "vous": "buvez",
+        "ils/elles": "boivent"
+      }
+    }
+  },
+  {
+    "french": "dormir",
+    "english": "to sleep",
+    "parts": {
+      "infinitive": "dormir",
+      "present": {
+        "je": "dors",
+        "tu": "dors",
+        "il/elle": "dort",
+        "nous": "dormons",
+        "vous": "dormez",
+        "ils/elles": "dorment"
+      }
+    }
+  },
+  {
+    "french": "venir",
+    "english": "to come",
+    "parts": {
+      "infinitive": "venir",
+      "present": {
+        "je": "viens",
+        "tu": "viens",
+        "il/elle": "vient",
+        "nous": "venons",
+        "vous": "venez",
+        "ils/elles": "viennent"
+      }
+    }
+  },
+  {
+    "french": "prendre",
+    "english": "to take",
+    "parts": {
+      "infinitive": "prendre",
+      "present": {
+        "je": "prends",
+        "tu": "prends",
+        "il/elle": "prend",
+        "nous": "prenons",
+        "vous": "prenez",
+        "ils/elles": "prennent"
+      }
+    }
+  },
+  {
+    "french": "voir",
+    "english": "to see",
+    "parts": {
+      "infinitive": "voir",
+      "present": {
+        "je": "vois",
+        "tu": "vois",
+        "il/elle": "voit",
+        "nous": "voyons",
+        "vous": "voyez",
+        "ils/elles": "voient"
+      }
+    }
+  },
+  {
+    "french": "pouvoir",
+    "english": "to be able to",
+    "parts": {
+      "infinitive": "pouvoir",
+      "present": {
+        "je": "peux",
+        "tu": "peux",
+        "il/elle": "peut",
+        "nous": "pouvons",
+        "vous": "pouvez",
+        "ils/elles": "peuvent"
+      }
+    }
+  },
+  {
+    "french": "vouloir",
+    "english": "to want",
+    "parts": {
+      "infinitive": "vouloir",
+      "present": {
+        "je": "veux",
+        "tu": "veux",
+        "il/elle": "veut",
+        "nous": "voulons",
+        "vous": "voulez",
+        "ils/elles": "veulent"
+      }
+    }
+  },
+  {
+    "french": "devoir",
+    "english": "to have to/must",
+    "parts": {
+      "infinitive": "devoir",
+      "present": {
+        "je": "dois",
+        "tu": "dois",
+        "il/elle": "doit",
+        "nous": "devons",
+        "vous": "devez",
+        "ils/elles": "doivent"
+      }
+    }
+  },
+  {
+    "french": "savoir",
+    "english": "to know (fact/how to)",
+    "parts": {
+      "infinitive": "savoir",
+      "present": {
+        "je": "sais",
+        "tu": "sais",
+        "il/elle": "sait",
+        "nous": "savons",
+        "vous": "savez",
+        "ils/elles": "savent"
+      }
+    }
+  },
+  {
+    "french": "connaître",
+    "english": "to know (be familiar with)",
+    "parts": {
+      "infinitive": "connaître",
+      "present": {
+        "je": "connais",
+        "tu": "connais",
+        "il/elle": "connaît",
+        "nous": "connaissons",
+        "vous": "connaissez",
+        "ils/elles": "connaissent"
+      }
+    }
+  },
+  {
+    "french": "écrire",
+    "english": "to write",
+    "parts": {
+      "infinitive": "écrire",
+      "present": {
+        "je": "écris",
+        "tu": "écris",
+        "il/elle": "écrit",
+        "nous": "écrivons",
+        "vous": "écrivez",
+        "ils/elles": "écrivent"
+      }
+    }
+  },
+  {
+    "french": "lire",
+    "english": "to read",
+    "parts": {
+      "infinitive": "lire",
+      "present": {
+        "je": "lis",
+        "tu": "lis",
+        "il/elle": "lit",
+        "nous": "lisons",
+        "vous": "lisez",
+        "ils/elles": "lisent"
+      }
+    }
+  },
+  {
+    "french": "dire",
+    "english": "to say/tell",
+    "parts": {
+      "infinitive": "dire",
+      "present": {
+        "je": "dis",
+        "tu": "dis",
+        "il/elle": "dit",
+        "nous": "disons",
+        "vous": "dites",
+        "ils/elles": "disent"
+      }
+    }
+  },
+  {
+    "french": "écouter",
+    "english": "to listen",
+    "parts": {
+      "infinitive": "écouter",
+      "present": {
+        "je": "écoute",
+        "tu": "écoutes",
+        "il/elle": "écoute",
+        "nous": "écoutons",
+        "vous": "écoutez",
+        "ils/elles": "écoutent"
+      }
+    }
+  },
+  {
+    "french": "regarder",
+    "english": "to watch/look at",
+    "parts": {
+      "infinitive": "regarder",
+      "present": {
+        "je": "regarde",
+        "tu": "regardes",
+        "il/elle": "regarde",
+        "nous": "regardons",
+        "vous": "regardez",
+        "ils/elles": "regardent"
+      }
+    }
+  },
+  {
+    "french": "aimer",
+    "english": "to like/love",
+    "parts": {
+      "infinitive": "aimer",
+      "present": {
+        "je": "aime",
+        "tu": "aimes",
+        "il/elle": "aime",
+        "nous": "aimons",
+        "vous": "aimez",
+        "ils/elles": "aiment"
+      }
+    }
+  },
+  {
+    "french": "détester",
+    "english": "to hate",
+    "parts": {
+      "infinitive": "détester",
+      "present": {
+        "je": "déteste",
+        "tu": "détestes",
+        "il/elle": "déteste",
+        "nous": "détestons",
+        "vous": "détestez",
+        "ils/elles": "détestent"
+      }
+    }
+  },
+  {
+    "french": "préférer",
+    "english": "to prefer",
+    "parts": {
+      "infinitive": "préférer",
+      "present": {
+        "je": "préfère",
+        "tu": "préfères",
+        "il/elle": "préfère",
+        "nous": "préférons",
+        "vous": "préférez",
+        "ils/elles": "préfèrent"
+      }
+    }
+  },
+  {
+    "french": "penser",
+    "english": "to think",
+    "parts": {
+      "infinitive": "penser",
+      "present": {
+        "je": "pense",
+        "tu": "penses",
+        "il/elle": "pense",
+        "nous": "pensons",
+        "vous": "pensez",
+        "ils/elles": "pensent"
+      }
+    }
+  },
+  {
+    "french": "croire",
+    "english": "to believe",
+    "parts": {
+      "infinitive": "croire",
+      "present": {
+        "je": "crois",
+        "tu": "crois",
+        "il/elle": "croit",
+        "nous": "croyons",
+        "vous": "croyez",
+        "ils/elles": "croient"
+      }
+    }
+  },
+  {
+    "french": "comprendre",
+    "english": "to understand",
+    "parts": {
+      "infinitive": "comprendre",
+      "present": {
+        "je": "comprends",
+        "tu": "comprends",
+        "il/elle": "comprend",
+        "nous": "comprenons",
+        "vous": "comprenez",
+        "ils/elles": "comprennent"
+      }
+    }
+  },
+  {
+    "french": "étudier",
+    "english": "to study",
+    "parts": {
+      "infinitive": "étudier",
+      "present": {
+        "je": "étudie",
+        "tu": "étudies",
+        "il/elle": "étudie",
+        "nous": "étudions",
+        "vous": "étudiez",
+        "ils/elles": "étudient"
+      }
+    }
+  },
+  {
+    "french": "travailler",
+    "english": "to work",
+    "parts": {
+      "infinitive": "travailler",
+      "present": {
+        "je": "travaille",
+        "tu": "travailles",
+        "il/elle": "travaille",
+        "nous": "travaillons",
+        "vous": "travaillez",
+        "ils/elles": "travaillent"
+      }
+    }
+  },
+  {
+    "french": "jouer",
+    "english": "to play",
+    "parts": {
+      "infinitive": "jouer",
+      "present": {
+        "je": "joue",
+        "tu": "joues",
+        "il/elle": "joue",
+        "nous": "jouons",
+        "vous": "jouez",
+        "ils/elles": "jouent"
+      }
+    }
+  },
+  {
+    "french": "habiter",
+    "english": "to live (in a place)",
+    "parts": {
+      "infinitive": "habiter",
+      "present": {
+        "je": "habite",
+        "tu": "habites",
+        "il/elle": "habite",
+        "nous": "habitons",
+        "vous": "habitez",
+        "ils/elles": "habitent"
+      }
+    }
+  },
+  {
+    "french": "vivre",
+    "english": "to live (be alive)",
+    "parts": {
+      "infinitive": "vivre",
+      "present": {
+        "je": "vis",
+        "tu": "vis",
+        "il/elle": "vit",
+        "nous": "vivons",
+        "vous": "vivez",
+        "ils/elles": "vivent"
+      }
+    }
+  },
+  {
+    "french": "partir",
+    "english": "to leave",
+    "parts": {
+      "infinitive": "partir",
+      "present": {
+        "je": "pars",
+        "tu": "pars",
+        "il/elle": "part",
+        "nous": "partons",
+        "vous": "partez",
+        "ils/elles": "partent"
+      }
+    }
+  },
+  {
+    "french": "sortir",
+    "english": "to go out",
+    "parts": {
+      "infinitive": "sortir",
+      "present": {
+        "je": "sors",
+        "tu": "sors",
+        "il/elle": "sort",
+        "nous": "sortons",
+        "vous": "sortez",
+        "ils/elles": "sortent"
+      }
+    }
+  }
+]
