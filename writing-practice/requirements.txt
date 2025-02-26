@@ -1,0 +1,5 @@
+streamlit
+pytesseract
+openai
+gradio
+python-dotenv

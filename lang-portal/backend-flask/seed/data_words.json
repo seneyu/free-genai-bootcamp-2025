@@ -1,0 +1,302 @@
+[
+  {
+    "french": "voiture",
+    "english": "car",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "voitures"
+    }
+  },
+  {
+    "french": "maison",
+    "english": "house",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "maisons"
+    }
+  },
+  {
+    "french": "livre",
+    "english": "book",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "livres"
+    }
+  },
+  {
+    "french": "table",
+    "english": "table",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "tables"
+    }
+  },
+  {
+    "french": "chaise",
+    "english": "chair",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "chaises"
+    }
+  },
+  {
+    "french": "chat",
+    "english": "cat",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "chats"
+    }
+  },
+  {
+    "french": "chien",
+    "english": "dog",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "chiens"
+    }
+  },
+  {
+    "french": "école",
+    "english": "school",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "l'",
+      "indefinite_article": "une",
+      "plural": "écoles"
+    }
+  },
+  {
+    "french": "ami",
+    "english": "friend (male)",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "l'",
+      "indefinite_article": "un",
+      "plural": "amis"
+    }
+  },
+  {
+    "french": "amie",
+    "english": "friend (female)",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "l'",
+      "indefinite_article": "une",
+      "plural": "amies"
+    }
+  },
+  {
+    "french": "enfant",
+    "english": "child",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "l'",
+      "indefinite_article": "un",
+      "plural": "enfants"
+    }
+  },
+  {
+    "french": "pain",
+    "english": "bread",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "pains"
+    }
+  },
+  {
+    "french": "eau",
+    "english": "water",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "l'",
+      "indefinite_article": "une",
+      "plural": "eaux"
+    }
+  },
+  {
+    "french": "porte",
+    "english": "door",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "portes"
+    }
+  },
+  {
+    "french": "fenêtre",
+    "english": "window",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "fenêtres"
+    }
+  },
+  {
+    "french": "heure",
+    "english": "hour, time",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "l'",
+      "indefinite_article": "une",
+      "plural": "heures"
+    }
+  },
+  {
+    "french": "jour",
+    "english": "day",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "jours"
+    }
+  },
+  {
+    "french": "semaine",
+    "english": "week",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "semaines"
+    }
+  },
+  {
+    "french": "mois",
+    "english": "month",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "mois"
+    }
+  },
+  {
+    "french": "année",
+    "english": "year",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "l'",
+      "indefinite_article": "une",
+      "plural": "années"
+    }
+  },
+  {
+    "french": "restaurant",
+    "english": "restaurant",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "restaurants"
+    }
+  },
+  {
+    "french": "café",
+    "english": "coffee, café",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "cafés"
+    }
+  },
+  {
+    "french": "famille",
+    "english": "family",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "familles"
+    }
+  },
+  {
+    "french": "téléphone",
+    "english": "telephone",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "téléphones"
+    }
+  },
+  {
+    "french": "sac",
+    "english": "bag",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "sacs"
+    }
+  },
+  {
+    "french": "stylo",
+    "english": "pen",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "stylos"
+    }
+  },
+  {
+    "french": "lettre",
+    "english": "letter",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "lettres"
+    }
+  },
+  {
+    "french": "personne",
+    "english": "person",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "personnes"
+    }
+  },
+  {
+    "french": "ville",
+    "english": "city, town",
+    "gender": "feminine",
+    "parts": {
+      "definite_article": "la",
+      "indefinite_article": "une",
+      "plural": "villes"
+    }
+  },
+  {
+    "french": "pays",
+    "english": "country",
+    "gender": "masculine",
+    "parts": {
+      "definite_article": "le",
+      "indefinite_article": "un",
+      "plural": "pays"
+    }
+  }
+]

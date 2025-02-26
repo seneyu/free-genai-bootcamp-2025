@@ -47,7 +47,9 @@ export interface StudySession {
   activity_id: number;
   activity_name: string;
   start_time: string;
-  end_time: string;
+  end_time: string | null;
+  review_items_count: number;
+  correct_count: number;
 }
 
 export interface WordReview {
@@ -153,7 +155,9 @@ export async function fetchWordDetails(wordId: number): Promise<WordResponse> {
   return response.json();
 }
 
-export async function createWord(word: Omit<Word, 'id'>): Promise<{ message: string; id: number }> {
+export async function createWord(
+  word: Omit<Word, 'id'>
+): Promise<{ message: string; id: number }> {
   const response = await fetch('/api/words', {
     method: 'POST',
     headers: {
@@ -214,7 +218,9 @@ export async function fetchStudySessions(
   page: number = 1,
   perPage: number = 10
 ): Promise<StudySessionsResponse> {
-  const response = await fetch(`/api/study-sessions?page=${page}&per_page=${perPage}`);
+  const response = await fetch(
+    `${API_BASE_URL}/study-sessions?page=${page}&per_page=${perPage}`
+  );
   if (!response.ok) {
     throw new Error('Failed to fetch study sessions');
   }
@@ -238,18 +244,18 @@ export async function fetchGroupStudySessions(
 
 // Study Activities API
 export interface StudyActivity {
-  id: number
-  preview_url: string
-  title: string
-  launch_url: string
+  id: number;
+  preview_url: string;
+  title: string;
+  launch_url: string;
 }
 
 export async function fetchStudyActivities(): Promise<StudyActivity[]> {
-  const response = await fetch(`${API_BASE_URL}/study-activities`)
+  const response = await fetch(`${API_BASE_URL}/study-activities`);
   if (!response.ok) {
-    throw new Error('Failed to fetch study activities')
+    throw new Error('Failed to fetch study activities');
   }
-  return response.json()
+  return response.json();
 }
 
 // Dashboard API

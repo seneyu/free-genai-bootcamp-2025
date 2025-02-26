@@ -128,13 +128,13 @@ def load(app):
       offset = (page - 1) * words_per_page
 
       # Get sorting parameters
-      sort_by = request.args.get('sort_by', 'kanji')
+      sort_by = request.args.get('sort_by', 'french')
       order = request.args.get('order', 'asc')
 
       # Validate sort parameters
-      valid_columns = ['kanji', 'romaji', 'english', 'correct_count', 'wrong_count']
+      valid_columns = ['french', 'english', 'parts', 'correct_count', 'wrong_count']
       if sort_by not in valid_columns:
-        sort_by = 'kanji'
+        sort_by = 'french'
       if order not in ['asc', 'desc']:
         order = 'asc'
 
@@ -173,9 +173,9 @@ def load(app):
       for word in words:
         words_data.append({
           "id": word["id"],
-          "kanji": word["kanji"],
-          "romaji": word["romaji"],
+          "french": word["french"],
           "english": word["english"],
+          "parts": word["parts"],
           "correct_count": word["correct_count"],
           "wrong_count": word["wrong_count"]
         })

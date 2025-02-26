@@ -38,9 +38,10 @@ CREATE TABLE word_review_items (
 
 -- Insert default study activities
 INSERT INTO study_activities (name, description, url, preview_url, thumbnail_url) VALUES 
-('Flashcards', 'Practice vocabulary with flashcards', '/study/flashcards', '/images/flashcards-preview.jpg', '/images/flashcards-thumb.jpg'),
-('Multiple Choice', 'Test your knowledge with multiple choice questions', '/study/multiple-choice', '/images/quiz-preview.jpg', '/images/quiz-thumb.jpg'),
-('Writing Practice', 'Practice writing French sentences', '/study/writing', '/images/writing-preview.jpg', '/images/writing-thumb.jpg');
+-- ('Flashcards', 'Practice vocabulary with flashcards', '/study/flashcards', '/images/flashcards-preview.jpg', '/images/flashcards-thumb.jpg'),
+-- ('Multiple Choice', 'Test your knowledge with multiple choice questions', '/study/multiple-choice', '/images/quiz-preview.jpg', '/images/quiz-thumb.jpg'),
+('Typing Tutor', 'Practice typing Frech words', 'http://localhost:8080', '/assets/study_activities/typing-tutor.png', '/assets/study_activities/typing-tutor.png'),
+('Writing Practice', 'Practice writing French sentences', 'http://localhost:8081', '/images/writing-preview.jpg', '/images/writing-thumb.jpg');
 
 -- Recreate indexes
 CREATE INDEX IF NOT EXISTS idx_study_sessions_group ON study_sessions(group_id);

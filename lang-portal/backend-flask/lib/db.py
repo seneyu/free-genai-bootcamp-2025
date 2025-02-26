@@ -133,6 +133,8 @@ class Db:
             'setup/create_table_groups.sql',  # Create groups first
             'setup/create_table_words.sql',
             'setup/create_table_word_groups.sql',
+            'setup/create_table_word_reviews.sql',
+            'setup/create_word_reviews.sql'
         ]
         
         for file in setup_files:
@@ -157,6 +159,18 @@ class Db:
             cursor=cursor,
             group_name='Core Verbs',
             data_json_path='seed/data_verbs.json'
+        )
+
+        self.import_word_json(
+            cursor=cursor,
+            group_name='Basic Nouns',
+            data_json_path='seed/data_words.json'
+        )
+
+        self.import_word_json(
+            cursor=cursor,
+            group_name='Core Adjectives',
+            data_json_path='seed/data_adjectives.json'
         )
         
         self.get().commit()

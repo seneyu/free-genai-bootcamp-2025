@@ -12,6 +12,8 @@ import routes.study_sessions
 import routes.dashboard
 import routes.study_activities
 
+
+
 def init_db(app):
     """Initialize database and create tables"""
     try:
@@ -169,6 +171,10 @@ def create_app(test_config=None):
     routes.study_sessions.load(app)
     routes.dashboard.load(app)
     routes.study_activities.load(app)
+
+    from error_handler import register_error_handlers, setup_api_logging
+    register_error_handlers(app)
+    setup_api_logging(app)
     
     # Register database close function
     @app.teardown_appcontext
