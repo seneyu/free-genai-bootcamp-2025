@@ -49,7 +49,7 @@ curl -X POST http://localhost:9000/api/generate -d '{
 
 Here is the response I got back from Ollama:
 
-![Ollama response](./ollama-example-response.png)
+![Ollama response](./assets/ollama-example-response.png)
 
 ## Technical Uncertainty
 
